@@ -1,18 +1,19 @@
 # Flashpoints of the Inner Sphere
 
-Welcome to the the Flashpoints of the Inner Sphere!
+Welcome to Flashpoints of the Inner Sphere!
 
-Here you'll find a flashpoint inspired by the lore of the Battletech universe, depiciting a raid at the start of the Andurien Crises on a newsly occupied planet. 
-This flashpoint is intended for the Battletech game, released in 2018 by Harebrained Schemes, which has "BattleTech Extended 3025 - 3061"  (BEX) mod installed.
-It will appear in 3031 and will remain visible for 480 days which roughly represents the time of Repulse system's occupation according to the official cannon. 
-Theoretically with small changes one can use it in every mod of the Battletech game or even the standard version. 
+This repository features a lore-inspired flashpoint for the Battletech universe - "Smash and Grab". 
+It depicts a raid at the beginning of the Andurien Crises on a recently occupied planet. The flashpoint is designed for the Battletech game by 
+Harebrained Schemes, which has the "BattleTech Extended 3025 - 3061" (BEX) mod installed. 
+It is set in 3031 and remains active for 480 days, aligning with the official canon's timeline of the Repulse system's occupation. 
+With slight modifications, it can be adapted for other Battletech mods or the standard game.
 
-If time and real life permits, I intend to add more stuff to this repositor with objective is to expand upon the existing material while remaining faithful 
-to the established canon. 
+If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion.
+
+![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/42dc2aef-bca1-41f5-80f0-0f5afca405ad)
+
 
 # Thanks
-My limitations being what they are, I am indebted forever to CWolf and his tools like "Conversetek".
-I also have to mention "Flashpoint Authors Guide" by Amechwarrior which pointed me into right direction.
-Finally I have to thanks CWOlf, t-bone and Mal.D from CWolf's Mission Control discord for actually pointing me 
-in right direction when I was stuck solving tech issues.
+I am grateful to CWolf for his tools like "Conversetek" and to Amechwarrior for their "Flashpoint Authors Guide," which provided valuable guidance (of the type - where to start??). 
+Special thanks to CWOlf (once again), t-bone, and Mal.D from CWolf's Mission Control discord for their assistance with technical issues.
 
