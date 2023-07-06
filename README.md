@@ -10,7 +10,8 @@ With slight modifications, it can be adapted for other Battletech mods or the st
 
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion.
 
-![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/42dc2aef-bca1-41f5-80f0-0f5afca405ad)
+<img src="https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/42dc2aef-bca1-41f5-80f0-0f5afca405ad" alt="An example of one of the lore events" width="1000" height="600">
+
 
 
 # Thanks
