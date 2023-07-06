@@ -11,10 +11,6 @@ With slight modifications, it can be adapted for other Battletech mods or the st
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion.
 
 
-<img src="https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/42dc2aef-bca1-41f5-80f0-0f5afca405ad" align="Center" width="533" height="300">
-
-
-
 # Thanks
 I am grateful to CWolf for his tools like "Conversetek" and to Amechwarrior for their "Flashpoint Authors Guide," which provided valuable guidance (of the type - where to start??). 
 Special thanks to CWOlf (once again), t-bone, and Mal.D from CWolf's Mission Control discord for their assistance with technical issues.
