@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_IrenneXue",
+    "internalName" : "IrenneXue",
+    "firstName" : "Irenne",
+    "lastName" : "Xue",
+    "callsign" : "",
+    "rank" : "Sergeant",
+    "gender" : "Female",
+    "faction" : "Liao",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/fp_smashAndGrab/portrait/guiTxrPort_IrenneXue.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

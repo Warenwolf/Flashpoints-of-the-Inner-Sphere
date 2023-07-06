@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_smashAndGrab",
+        "Name" : "Smash and Grab",
+        "Details" : "3030 Raid",
+        "Icon" : "uixTxrSpot_Jungle.png"
+    },
+    "Weight" : 218,
+    "InternalName" : "smashAndGrab",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 6,
+    "Requirements" : [
+        {
+            "Scope" : "Flashpoint",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_Repulse"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Liao"
+    ],
+    "TargetFaction" : "MagistracyOfCanopus",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "SHORT",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_smashAndGrab",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 480,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 180,
+    "RewardCollectionID" : "itemCollection_Weapons_Magistracy_rare",
+    "UnitDropTonnageHint" : "Mixed",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "After suffering great losses during 4th Succesion War, the Capellans found themselves under attack of a new enemy - Andurien and Canopian allaince. Confedaration needs to strike back. They have sent out feelers for competent mercenaries with experience operating behind enemy lines.",
+    "FlashpointDescriberCastDefId" : "castDef_LiaoRepDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

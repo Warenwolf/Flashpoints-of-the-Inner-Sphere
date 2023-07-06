@@ -1,0 +1,21 @@
+{
+    "Name": "fp_smashAndGrab",
+    "Enabled": true,
+
+    "Version": "1.0.0",
+    "Description": "3030s War",
+    "Author": "Warenwolf/MRB",
+    "Manifest": [
+        { "Type": "CastDef", "Path": "cast" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
+	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
+}
