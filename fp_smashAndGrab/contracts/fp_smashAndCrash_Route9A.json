@@ -544,13 +544,7 @@
 		}
 	],
 	"extractionOverrideList": [
-    {
-      "name": "Chunk_Dropship_Extraction",
-      "extractViaDropship": false,
-	  "extractionGameLogic" : {
-                "EncounterObjectGuid" : "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1"
-							  }
-    },
+   
 	{
       "name": "Chunk_Dropship_Extraction",
       "extractViaDropship": false,

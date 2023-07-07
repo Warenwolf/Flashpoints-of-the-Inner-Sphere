@@ -52,8 +52,8 @@
     "RewardCollectionID" : "itemCollection_Weapons_Magistracy_rare",
     "UnitDropTonnageHint" : "Mixed",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "After suffering great losses during 4th Succesion War, the Capellans found themselves under attack of a new enemy - Andurien and Canopian allaince. Confedaration needs to strike back. They have sent out feelers for competent mercenaries with experience operating behind enemy lines.",
-    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "FlashpointShortDescription" : "Following the devastating losses in the 4th Succession War, the Capellans is facing a new threat from the Andurien and Canopian alliance, which launched an attack on the Confederation in September 3030. The Confederation is determined to slow the relentless onslaught and looking for skilled mercenaries with expertise in covert operations.",
+    "FlashpointDescriberCastDefId" : "castDef_LiaoRepDefault",
     "Tags" : {
         "items" : [],
         "tagSetSourceFile" : "tags/FlashpointTags"

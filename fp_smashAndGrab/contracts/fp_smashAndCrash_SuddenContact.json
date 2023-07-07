@@ -8,7 +8,7 @@
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
     "representativeCastDefIDOverride" : "castDef_IrenneXue",
-    "missionSuccessStatementOverride" : null,
+    "missionSuccessStatementOverride" : "Mission perfectly executed. Still we are now bit behind the scheldule Commander.",
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
     "shortDescription" : "Scouts ahead are reporting engine sounds in the area ahead. Be ready for anything",
@@ -93,7 +93,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "0e2a07c1-e22a-47a7-a353-3e93ebcd7b47"
             },
-            "title" : "Destroy Enemy Reinforcements",
+            "title" : "Destroy Enemy Armored Platoon",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -270,8 +270,8 @@
         }
     ],
     "extractionOverrideList" : [],
-    "overwriteMissionCompleteWhenAutoComplete" : false,
-    "overrideAutoCompleteDialogueId" : null,
+    "overwriteMissionCompleteWhenAutoComplete" : true,
+    "overrideAutoCompleteDialogueId" : "DialogBucketDef_c_fp_smashAndCrash_Raid1",
     "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : true,
@@ -314,6 +314,7 @@
                 "lanceDifficultyAdjustment" : 0,
                 "selectedLanceDefId" : null,
                 "selectedLanceDifficulty" : 0,
+				"overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList" : [
                     {
                         "unitSpawnPoint" : {
@@ -644,7 +645,7 @@
                     "EncounterObjectGuid" : "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e"
                 },
                 "name" : "Lance_Enemy_Ambushers",
-                "lanceDefId" : "Tagged",
+                "lanceDefId" : "Manual",
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_fire"
@@ -667,10 +668,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "4340 Armored Platoon",
                         "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -700,10 +701,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "4340 Armored Platoon",
                         "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -733,10 +734,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "4340 Armored Platoon",
                         "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -766,10 +767,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
                         },
-                        "customUnitName" : null,
+                       "customUnitName" : "4340 Armored Platoon",
                         "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitType" : "Vehicle",
+                        "unitDefId" : "vehicledef_SCORPION",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

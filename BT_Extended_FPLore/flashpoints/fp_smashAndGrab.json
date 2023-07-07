@@ -4,14 +4,16 @@
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
+				"timeline_3030_09_01",
                 "planet_name_repulse"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
             "items" : [
-				"timeline_3030"
-			],
+				"timeline_3031_08_27"
+                
+            ],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []

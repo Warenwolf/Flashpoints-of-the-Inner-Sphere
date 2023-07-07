@@ -54,7 +54,7 @@
 		60,
 		60
 	],
-	"mapMood": null,
+	"mapMood": "JungleNightMisty",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [{
 			"contractObjective": {
@@ -580,6 +580,7 @@
 			"lanceDifficultyAdjustment": 0,
 			"selectedLanceDefId": null,
 			"selectedLanceDifficulty": 0,
+			"overrideSpawnMethod": "InstantlyAtSpawnPoint",
 			"unitSpawnPointOverrideList": [{
 					"unitSpawnPoint": {
 						"EncounterObjectGuid": "ec9d2280-ca9a-4d90-8a20-963d8a4c0a39"
