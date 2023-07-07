@@ -773,7 +773,7 @@
 						"customUnitName": "Rhodium Ore Transporter",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -806,7 +806,7 @@
 						"customUnitName": "Rhodium Ore Transporter",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -839,7 +839,7 @@
 						"customUnitName": "Rhodium Ore Transporter",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -872,7 +872,7 @@
 						"customUnitName": "Rhodium Ore Transporter",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"

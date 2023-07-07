@@ -8,11 +8,11 @@
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
 	"representativeCastDefIDOverride": "castDef_IrenneXue",
-	"missionSuccessStatementOverride": "DialogBucketDef_fp_smashAndGrab_VictoryStatement",
+	"missionSuccessStatementOverride": "Mission complete. We need now to continue advancing up the Route 9.",
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "We're tracking {TEAM_TAR.FactionDef.Demonym} supply convoy that left Logistic Base CT563 just before you leveled it. Intercept the convoy and make sure it doesn't reach its destination",
-	"longDescription": "The real challenge here will be destroying the convoy while at same time being under fire",
+	"shortDescription": "We're tracking {TEAM_TAR.FactionDef.Demonym} supply convoy that left Logistic Base CT563 just before you leveled it. Intercept the convoy before it reaches the asphalt road and outruns you",
+	"longDescription": "The real challenge here will be chasing down the convoy while avoiding fire from its escorts",
 	"salvagePotential": 16,
 	"requirementList": [{
 		"Scope": "StarSystem",
@@ -67,8 +67,8 @@
 			"contractObjective": {
 				"EncounterObjectGuid": "bad503ac-4f47-47b0-a735-a5b13ff0e352"
 			},
-			"title": "Destroy the {TEAM_TAR.FactionDef.Demonym} Convoy",
-			"description": "A supply {TEAM_TAR.FactionDef.Demonym} convoy is trying to deliver supplies to a northern mining belt. Destroy it.",
+			"title": "Destroy the {TEAM_TAR.FactionDef.Demonym} NS-51 Convoy",
+			"description": "A supply {TEAM_TAR.FactionDef.Demonym} convoy, NS-51, is trying to deliver supplies to a northern mining belt. Destroy it.",
 			"isPrimary": true,
 			"forPlayer": "Player1",
 			"objectiveGuids": [
@@ -83,7 +83,7 @@
 			"contractObjective": {
 				"EncounterObjectGuid": "e93b9c15-0cbd-46a7-87a4-1d3de6adfd59"
 			},
-			"title": "Destroy the convoy's escort detail",
+			"title": "Destroy the convoy's escort force",
 			"description": "Send a message by not only destroying the convoy, but eliminating its escorts as well.",
 			"isPrimary": false,
 			"forPlayer": "Player1",
@@ -96,7 +96,7 @@
 			"objective": {
 				"EncounterObjectGuid": "f8f77ed8-c52e-4d19-b8e0-d4c94baf2375"
 			},
-			"title": "Destroy the {TEAM_TAR.FactionDef.Demonym} Convoy",
+			"title": "Destroy the {TEAM_TAR.FactionDef.Demonym} Convoy NS-51",
 			"description": "",
 			"isPrimary": true,
 			"OnSuccessResults": [],
@@ -166,7 +166,7 @@
 			"objective": {
 				"EncounterObjectGuid": "3a4192be-2a53-4383-94ac-19c08883ea5f"
 			},
-			"title": "Get to the Evac Zone",
+			"title": "Exfiltrate via Evac Zone",
 			"description": "",
 			"isPrimary": true,
 			"OnSuccessResults": [],
@@ -270,7 +270,7 @@
 			"name": "Dialogue_MissionStart",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-					"words": "Commander, the MAF supply convoy should be just ahead.",
+					"words": "Commander, the MAF supply convoy, designated NS-51, should be just ahead.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -388,7 +388,7 @@
 			"name": "Dialogue_GoToComplete",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "I detect significantly stronger ECM system somewhere in the convoy. LosTech of some sort, I presume.",
+				"words": "I detect a significantly stronger ECM system somewhere in the convoy. LosTech of some sort, I presume.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -457,7 +457,7 @@
 			"name": "Dialogue_Interrupt_ConvoyReachedExtraction",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "Convoy vehicles have begun to arrive at their destination, Commander! Get on the rest and destroy them or we're done here!",
+				"words": "Convoy vehicles have begun to arrive at their destination, and we have incoming an enemy bulk carrier! Commander, we are runing out of time!",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -503,7 +503,7 @@
 			"name": "Dialogue_EscapeInstruction",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "The convoy is finished, now mop up the remaining enemies. We'll send in salvage and recovery teams once you are done",
+				"words": "The convoy is finished, now mop up the remaining enemies. We'll send in salvage and recovery teams once the area is clear",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -543,7 +543,23 @@
 			}]
 		}
 	],
-	"extractionOverrideList": [],
+	"extractionOverrideList": [
+    {
+      "name": "Chunk_Dropship_Extraction",
+      "extractViaDropship": false,
+	  "extractionGameLogic" : {
+                "EncounterObjectGuid" : "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1"
+							  }
+    },
+	{
+      "name": "Chunk_Dropship_Extraction",
+      "extractViaDropship": false,
+	  "extractionGameLogic" : {
+                "EncounterObjectGuid" : "3a4192be-2a53-4383-94ac-19c08883ea5f"
+							  }
+    }
+	
+							],
 	"overwriteMissionCompleteWhenAutoComplete": true,
 	"overrideAutoCompleteDialogueId": "DialogBucketDef_c_fp_smashAndCrash_Raid1",
 	"disableNegotations": false,
@@ -780,7 +796,7 @@
 						"customUnitName": "Miitary Transport",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -813,7 +829,7 @@
 						"customUnitName": "Miitary Transport",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
@@ -846,7 +862,7 @@
 						"customUnitName": "Miitary Transport",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "vehicledef_AMMOTRANSPORT",
+						"unitDefId": "vehicledef_Truck",
 						"unitTagSet": {
 							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"

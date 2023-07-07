@@ -605,26 +605,39 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "1500000",
+                            "value" : "1800000",
                             "set" : false,
                             "valueConstant" : null
                         },
                         {
                             "typeString" : "System.Int32",
                             "name" : "Morale",
-                            "value" : "1",
+                            "value" : "2",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.Liao",
+                            "value" : "5",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.DuchyOfAndurien",
+                            "value" : "-10",
                             "set" : false,
                             "valueConstant" : null
                         }
                     ],
                     "Actions" : [
                         {
-                            "Type" : "System_PauseNotification",
-                            "value" : "Mission complete.",
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Argo",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "Post-Mission Review",
-                                "CastDefs_LocalsDefault"
+                                "Post-Mission Review"
                             ]
                         }
                     ],

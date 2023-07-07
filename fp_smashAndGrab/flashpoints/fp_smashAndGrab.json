@@ -41,7 +41,7 @@
         "Liao"
     ],
     "TargetFaction" : "MagistracyOfCanopus",
-    "AllowRefitTime" : true,
+    "AllowRefitTime" : false,
     "FlashpointLength" : "SHORT",
     "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_smashAndGrab",
@@ -53,7 +53,7 @@
     "UnitDropTonnageHint" : "Mixed",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "After suffering great losses during 4th Succesion War, the Capellans found themselves under attack of a new enemy - Andurien and Canopian allaince. Confedaration needs to strike back. They have sent out feelers for competent mercenaries with experience operating behind enemy lines.",
-    "FlashpointDescriberCastDefId" : "castDef_LiaoRepDefault",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
         "items" : [],
         "tagSetSourceFile" : "tags/FlashpointTags"
