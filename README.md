@@ -10,7 +10,7 @@ and miltary activities on that planet during that time.
 With slight modifications, it can be adapted for other Battletech mods or the standard game.
 
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion. 
-If you are playing this during 3030s and 3040s in-game, I strongly advise use of my News Events Expandeds mod (https://github.com/Warenwolf/News-Events-Expanded)
+If you are playing this during 3030s and 3040s in-game, I strongly advise use of my News Events Expandeds mod [News Events Expanded](https://github.com/Warenwolf/News-Events-Expanded)
 
 ![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/76f3fbb2-7d51-4d3c-925d-00ad1f75ddf3)
 
