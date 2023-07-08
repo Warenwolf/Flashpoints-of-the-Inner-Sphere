@@ -20,7 +20,8 @@ Prerequisites: Your Battletech game is up to date and you have BEX mod installed
 
 
 * Extract the folders in the compressed archive
-* Copy the folders and their contents to "Mods" folder which you will find in the same place where your Battletech game is installed.
+* Copy the folders ("fp_smashAndGrab" and "BT_Extended_FPLore") and their contents to "Mods" folder which you will find in the same place
+  where your Battletech game is installed.
 * If you are updating, chose yes when asked to overwrite. 
 
 ### Thanks
