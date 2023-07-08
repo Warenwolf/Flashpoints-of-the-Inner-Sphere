@@ -26,7 +26,7 @@ Prerequisites: Your Battletech game is up to date and you have BEX mod installed
 * If you are updating, chose yes when asked to overwrite. 
 
 ### Thanks
-I am grateful to CWolf for his tools like "Conversetek" and to Amechwarrior for their "Flashpoint Authors Guide," which provided valuable guidance (of the type - where to start??). 
+I am grateful to CWolf for his tools like "Conversetek" and to Amechwarrior for the "Flashpoint Authors Guide," which provided valuable guidance (of the type - where to start??). 
 Special thanks to CWolf (once again), t-bone, and Mal.D from CWolf's Mission Control discord for their assistance with technical issues.
 
 License: CC-BY-NC-SA-4.0
