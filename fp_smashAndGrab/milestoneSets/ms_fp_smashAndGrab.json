@@ -557,7 +557,10 @@
                             "Type" : "Flashpoint_CompleteFlashpoint",
                             "value" : "ms_fp_smashAndGrab_010_Reward",
                             "valueConstant" : null,
-                            "additionalValues" : null
+                            "additionalValues" : [
+                                "fp_itemCollection_Weapons_Magistracy_rare",
+                                null
+                            ]
                         }
                     ],
                     "ForceEvents" : null,
