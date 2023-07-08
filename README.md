@@ -5,7 +5,8 @@ Welcome to Flashpoints of the Inner Sphere!
 This repository features a lore-inspired flashpoint for the Battletech universe - "Smash and Grab". 
 It depicts a raid at the beginning of the Andurien Crises on a recently occupied planet. The flashpoint is designed for the Battletech game by 
 Harebrained Schemes, which has the "BattleTech Extended 3025 - 3061" (BEX) mod installed. 
-It becomes available in September 3030 and remains active for 360 days, aligning with the official canon's timeline of the Repulse system's occupation. 
+It becomes available in September 3030 and remains active for 360 days, aligning with the official canon's timeline of the Repulse system's occupation
+and miltary activities on that planet during that time. 
 With slight modifications, it can be adapted for other Battletech mods or the standard game.
 
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion.
