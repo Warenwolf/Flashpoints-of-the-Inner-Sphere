@@ -11,6 +11,9 @@ With slight modifications, it can be adapted for other Battletech mods or the st
 
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion.
 
+![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/76f3fbb2-7d51-4d3c-925d-00ad1f75ddf3)
+
+
 ### Installation
 
 Prerequisites: Your Battletech game is up to date and you have BEX mod installed. The in-game time has not yet reached August 3031. 
@@ -22,5 +25,5 @@ Prerequisites: Your Battletech game is up to date and you have BEX mod installed
 
 ### Thanks
 I am grateful to CWolf for his tools like "Conversetek" and to Amechwarrior for their "Flashpoint Authors Guide," which provided valuable guidance (of the type - where to start??). 
-Special thanks to CWOlf (once again), t-bone, and Mal.D from CWolf's Mission Control discord for their assistance with technical issues.
+Special thanks to CWolf (once again), t-bone, and Mal.D from CWolf's Mission Control discord for their assistance with technical issues.
 
