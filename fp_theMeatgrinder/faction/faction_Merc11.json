@@ -31,13 +31,13 @@
         "We both know the score, Commander. House Humphreys relies on you like you're one of our own, and you've always been happy to help us out. I hope you can see fit to agree this time as well\u2014this is a job too important for lesser warriors."
     ],
     "MissionSuccessStatements" : [ 
-		"Top-tier work, Commander. House Humphreys is very happy with your performance. Keep it up, and I'll make sure a lot more work comes your way.",
+		"Top-tier work, Commander. House Humphreys is very happy with your performance. Keep it up, and I'll make sure a lot more work comes your way."
     ], 
 	"GoodFaithFailureStatements" : [ 
-		"The Duchy of Andurien understands that sacrifice on the battlefield doesn't always translate to victory. You've made a fine effort, even if it failed. Just another lesson for the next battle.",
+		"The Duchy of Andurien understands that sacrifice on the battlefield doesn't always translate to victory. You've made a fine effort, even if it failed. Just another lesson for the next battle."
     ],
 	"BadFaithFailureStatements" : [ 
-		"We are deeply disappointed in your performance, Commander. Your efforts on the battlefield were those of a raw cadet, not the leader of a mercenary company.",
+		"We are deeply disappointed in your performance, Commander. Your efforts on the battlefield were those of a raw cadet, not the leader of a mercenary company."
     ],
 	"DefaultCombatLeaderCastDefId" : "castDef_AndurienDefaultCommander",
     "DefaultRepresentativeCastDefId" : "castDef_AndurienDefaultCommander",
