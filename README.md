@@ -24,8 +24,8 @@ Prerequisites: Your Battletech game is up to date and you have BEX mod installed
 * If you are updating, chose yes when asked to overwrite.
 
 ### Dependencies
-* The "Flashpoints of the Inner Sphere" are intended as an addition to [BattleTech Extended 3025-3061](https://discourse.modsinexile.com/t/battletech-extended-3025-3061-1-9-3-7/426). version 1.9.3.7 by Haree78.
-* ExtendedConversations (comes bundled), version 0.60.
+* The "Flashpoints of the Inner Sphere" are intended as an addition to [BattleTech Extended 3025-3061](https://discourse.modsinexile.com/t/battletech-extended-3025-3061-1-9-3-7/426) by Haree78. version 1.9.3.7.
+* ExtendedConversations (comes bundled) by CWolfs, version 0.60.
 
 ### Credits
 This mod is bundled with another mod, [ExtendedConversations](https://github.com/CWolfs/ExtendedConversations), created by [CWolfs/Richard Griffiths](https://github.com/CWolfs). This mod gives advanced capabilites to the conversations aboard Argo such as varying conversation based on the timeline in the game, emulating passing of time and travel, etc, etc...
