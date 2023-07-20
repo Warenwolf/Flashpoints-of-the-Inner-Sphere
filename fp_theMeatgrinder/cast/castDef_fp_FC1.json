@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_FC1",
+    "internalName" : "castDef_fp_FC1",
+    "firstName" : "Andurien Facility Commander",
+    "lastName" : "Andurien Facility Commander",
+    "callsign" : "Hellfire",
+    "rank" : "Flag Captain",
+    "gender" : "Male",
+    "factionID" : "Andurien",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_02_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

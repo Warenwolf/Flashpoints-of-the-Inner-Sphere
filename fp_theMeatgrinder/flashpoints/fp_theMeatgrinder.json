@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Id" : "fp_theMeatgrinder",
+        "Name" : "The Meatgrinder",
+        "Details" : "Battle of Betelgeuse",
+        "Icon" : "uixTxrSpot_Dessert.png"
+    },
+    "Weight" : 400,
+    "InternalName" : "theMeatgrinder",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_betelgeuse"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : "Tags/PlanetTags"
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Liao"
+    ],
+    "TargetFaction" : "DuchyOfAndurien",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_theMeatgrinder",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 141,
+    "RewardCollectionID" : "itemCollection_MechParts_rare",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "As the war broke out between the Capellan Confederation and the Andurien-Canopian alliance, the strategically vital Betelgeuse was soon invaded by Andurien forces. The Capellans are fiercely resisting the incursion with unwavering determination. With reinforcements pouring in for the Andurien forces, the Capellans are actively seeking mercenaries willing to join the fray.",
+    "FlashpointDescriberCastDefId" : "castDef_LiaoRepDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}
