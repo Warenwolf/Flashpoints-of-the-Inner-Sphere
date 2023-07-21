@@ -8,11 +8,11 @@
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
     "representativeCastDefIDOverride" : "castDef_IrenneXue",
-    "missionSuccessStatementOverride" : "Mission perfectly executed. Still we are now bit behind the scheldule Commander.",
+    "missionSuccessStatementOverride" : "Mission perfectly executed. Still, we are now a bit behind schedule, Commander.",
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Scouts ahead are reporting engine sounds in the area ahead. Be ready for anything",
-    "longDescription" : "Not much to go on here - Might be a local buss with farmers or might be a Canopian division. Be ready for a hostile contact Commander",
+    "shortDescription" : "Scouts ahead are reporting engine sounds in the vicinity. Be prepared for anything.",
+    "longDescription" : "There's not much going on here. It could be a local bus with farmers or a Canopian division. Be ready for a fight, Commander.",
     "salvagePotential" : 8,
     "requirementList" : [
         {
@@ -144,7 +144,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "This is the area where our scouts reported engine sounds. If there is any enemy ahead, ensure they do not live to tell a tale",
+                    "words" : "This is the area where our scouts reported hearing engine sounds. If there is an enemy ahead, make certain they do not live to tell the tale.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -160,7 +160,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Keep moving forward until you make contact. We have to keep the salvage crews following us safe so don't leave any strugglers",
+                    "words" : "Keep going forward until you make contact. We need to keep the salvage crews following us safe, so don't leave any strugglers behind.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -226,7 +226,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Fall back, Commander. This is over.",
+                    "words" : "Fall back, Commander. It's over.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

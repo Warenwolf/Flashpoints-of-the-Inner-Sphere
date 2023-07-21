@@ -8,11 +8,11 @@
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
 	"representativeCastDefIDOverride": "castDef_IrenneXue",
-	"missionSuccessStatementOverride": "Mission complete. We need now to continue advancing up the Route 9.",
+	"missionSuccessStatementOverride": "Mission complete. We must now continue advancing up Route 9.",
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "We're tracking {TEAM_TAR.FactionDef.Demonym} supply convoy that left Logistic Base CT563 just before you leveled it. Intercept the convoy before it reaches the asphalt road and outruns you",
-	"longDescription": "The real challenge here will be chasing down the convoy while avoiding fire from its escorts",
+	"shortDescription": "We're tracking a {TEAM_TAR.FactionDef.Demonym} supply convoy that left Logistic Base CT563 just before you leveled it. Intercept the convoy before it reaches the asphalt road and outruns you",
+	"longDescription": "The real challenge here will be chasing down the convoy while avoiding fire from its escorts.",
 	"salvagePotential": 16,
 	"requirementList": [{
 		"Scope": "StarSystem",
@@ -68,7 +68,7 @@
 				"EncounterObjectGuid": "bad503ac-4f47-47b0-a735-a5b13ff0e352"
 			},
 			"title": "Destroy the {TEAM_TAR.FactionDef.Demonym} NS-51 Convoy",
-			"description": "A supply {TEAM_TAR.FactionDef.Demonym} convoy, NS-51, is trying to deliver supplies to a northern mining belt. Destroy it.",
+			"description": "A {TEAM_TAR.FactionDef.Demonym} supply convoy, NS-51, is trying to deliver supplies to a northern mining belt. Destroy it.",
 			"isPrimary": true,
 			"forPlayer": "Player1",
 			"objectiveGuids": [
@@ -84,7 +84,7 @@
 				"EncounterObjectGuid": "e93b9c15-0cbd-46a7-87a4-1d3de6adfd59"
 			},
 			"title": "Destroy the convoy's escort force",
-			"description": "Send a message by not only destroying the convoy, but eliminating its escorts as well.",
+			"description": "Send a message by not only destroying the convoy but eliminating its escorts as well.",
 			"isPrimary": false,
 			"forPlayer": "Player1",
 			"objectiveGuids": [
@@ -270,7 +270,7 @@
 			"name": "Dialogue_MissionStart",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-					"words": "Commander, the MAF supply convoy, designated NS-51, should be just ahead.",
+					"words": "Commander, the supply convoy NS-51 should be just ahead.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -286,7 +286,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "Seems that we misjudged the drop zone - you'll have to walk for a bit",
+					"words": "Seems that we misjudged the drop zone; you'll have to walk for a bit.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -302,7 +302,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "The Route 9 is just up the hill but you'll have to hurry if you want to intercept the convoy",
+					"words": "Route 9 is just up the hill, but you'll need to move quickly if you want to intercept the convoy",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -342,7 +342,7 @@
 			"name": "Dialogue_MissionSuccess",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "Nice work, Commander. I'll notify the resistance to send their soldiers ahead and secure the area",
+				"words": "Nice work, Commander. I'll notify the resistance to send their soldiers ahead and secure the area.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -434,7 +434,7 @@
 			"name": "Dialogue_Interrupt_GuardsDestroyed",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "The convoy guards are down, Commander! Great work.",
+				"words": "The convoy guards are down, Commander. Great work!",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -457,7 +457,7 @@
 			"name": "Dialogue_Interrupt_ConvoyReachedExtraction",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "Convoy vehicles have begun to arrive at their destination, and we have incoming an enemy bulk carrier! Commander, we are runing out of time!",
+				"words": "Convoy vehicles have begun to arrive at their destination, and an enemy bulk carrier is on its way! Commander, we are running out of time!",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -480,7 +480,7 @@
 			"name": "Dialogue_ConvoyTargetDestroyed",
 			"overrideDialogueBucketId": "DialogBucketDef_AmbushConvoy_PriTarDamaged",
 			"dialogueContent": [{
-				"words": "One down. Keep engaging those threats and we'll be out of here. ",
+				"words": "One down. Keep engaging those threats and we'll be out of here in no time.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -503,7 +503,7 @@
 			"name": "Dialogue_EscapeInstruction",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "The convoy is finished, now mop up the remaining enemies. We'll send in salvage and recovery teams once the area is clear",
+        "words": "The convoy has been destroyed; now clear out the remaining enemies so we can send in salvage and recovery teams.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,

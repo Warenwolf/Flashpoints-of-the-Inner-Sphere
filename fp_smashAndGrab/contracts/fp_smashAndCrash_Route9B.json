@@ -11,8 +11,8 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "We're close to the {TEAM_TAR.FactionDef.Demonym} ore cargo convoy but we are running out of time.",
-	"longDescription": "These are lightly armored targets protected by second line troops. But we have also been through some fighting so be careful",
+	"shortDescription": "We're almost to the {TEAM_TAR.FactionDef.Demonym} ore cargo convoy, but time is running out.",
+	"longDescription": "These are lightly armored targets guarded by second line troops. But we have also been through some fighting, so be cautious.",
 	"salvagePotential": 16,
 	"requirementList": [{
 		"Scope": "StarSystem",
@@ -76,7 +76,7 @@
 			"contractObjective": {
 				"EncounterObjectGuid": "e93b9c15-0cbd-46a7-87a4-1d3de6adfd59"
 			},
-			"title": "Destroy the convoy's escort detail",
+			"title": "Destroy the Convoy's Escort Detail",
 			"description": "Send a message by not only destroying the convoy, but eliminating its escorts as well.",
 			"isPrimary": false,
 			"forPlayer": "Player1",
@@ -279,7 +279,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "Ore Convoy is somewhere up ahead; let us intercept them and leave them burning.",
+					"words": "The ore convoy is somewhere ahead; let's intercept it and burn it down.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -295,7 +295,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "Then we'll extract at the designated location and you guys will finally get some R&R.",
+					"words": "Then we'll extract at the designated location, and you guys will finally get some R&R.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -335,7 +335,7 @@
 			"name": "Dialogue_MissionSuccess",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "The convoy is down and our job here is done. Nice work, Commander - time to get home",
+				"words": "The convoy is down and our job here is done. Nice work, Commander - time to get home.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -404,7 +404,7 @@
 			"name": "Dialogue_ConvoyDamaged",
 			"overrideDialogueBucketId": "DialogBucketDef_AmbushConvoy_PriTarDamaged",
 			"dialogueContent": [{
-				"words": "That's got it, keep firing on those targets until they are neutralized. ",
+				"words": "That's it, keep firing at those targets until they are neutralized.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -427,7 +427,7 @@
 			"name": "Dialogue_Interrupt_GuardsDestroyed",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "The convoy escorts eliminated Commander! Great work.",
+				"words": "The convoy escorts have benn eliminated, Commander. Great work.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -450,7 +450,7 @@
 			"name": "Dialogue_Interrupt_ConvoyReachedExtraction",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-				"words": "Convoy vehicles have begun to arrive at their destination, Commander! Get on the rest and destroy them or we're done here!",
+				"words": "Commander, the convoy vehicles have begun to arrive at their destination! Get the rest of them and destroy them, or we're done!",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -473,7 +473,7 @@
 			"name": "Dialogue_ConvoyTargetDestroyed",
 			"overrideDialogueBucketId": "DialogBucketDef_AmbushConvoy_PriTarDamaged",
 			"dialogueContent": [{
-				"words": "One down. Keep engaging those threats and we'll be out of here. ",
+				"words": "One down. Take care of the rest of them, then we can leave.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,
@@ -496,7 +496,7 @@
 			"name": "Dialogue_EscapeInstruction",
 			"overrideDialogueBucketId": "DialogBucketDef_Universal_Escape",
 			"dialogueContent": [{
-				"words": "The convoy is finished, now get what mechs you have to the extraction point and we'll pull you out. Move quickly.",
+				"words": "The convoy is finished; now get what 'Mechs you have to the extraction point, and we'll pull you out. Move quickly.",
 				"wordsColor": {
 					"r": 1,
 					"g": 1,

@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "The northern part of {TGT_SYSTEM.name} suffers from a severely inadequate infrastructure, which amplifies the significance of fuel dumps and supply storages for {TEAM_TAR.FactionDef.ShortName} operations in the region. Demolishing this base will effectively diminish the enemy's maneuverability and strength on the battlefield.",
+    "shortDescription" : "The northern part of {TGT_SYSTEM.name} suffers from severely inadequate infrastructure, emphasizing the significance of fuel dumps and supply storage facilities for {TEAM_TAR.FactionDef.ShortName} operations in the region. Destroying this base will effectively diminish the enemy's maneuverability and strength on the battlefield.",
     "longDescription" : "Assaulting fixed defenses is always a mess, Commander. Fixed gun emplacements can target your units from clear across the battlefield. Stay alert.",
     "salvagePotential" : 8,
     "requirementList" : [
@@ -278,7 +278,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "You got gun emplacements and a defense lance just over the hill. Nearest Canopian force is a fast response patrol 5 clicks south-east from your current position",
+                    "words" : "You've got gun emplacements and a defense lance just over the hill. The nearest Canopian force is a fast response patrol 5 clicks south-east from your current position.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -310,7 +310,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "And watch out for that garrison, Commander. It's nothing too dangerous but every bit of damage costs. Oliveira out.",
+                    "words" : "And watch out for that garrison, Commander. It's nothing too dangerous, but every bit of damage costs. Oliveira out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -360,7 +360,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "What a disaster. We'll debrief back at the ship.",
+                    "words" : "What a disaster. We'll debrief back on the ship.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -385,7 +385,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "And behold, the Canopian patrol makes its presence known",
+                    "words" : "And behold, the Canopian patrol makes its presence known.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -410,7 +410,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_Universal_Escape",
             "dialogueContent" : [
                 {
-                    "words" : "We've demolished the objective buildings. No need to loiter, get to the evac zone. ",
+                    "words" : "We've demolished the objective buildings. No need to loiter, get to the evac zone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -435,7 +435,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We have detected a strong AM radio signal emanating from the base, along with Canopian com chatter originating from the South-East.",
+                    "words" : "We have detected a strong AM radio signal originating from the base, along with Canopian COM chatter coming from the south-east.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -460,7 +460,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Good work commander.",
+                    "words" : "Good work, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -485,7 +485,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "According to the scans, the garrison forces have been eliminated",
+                    "words" : "The scans show that the garrison forces have been eliminated.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
