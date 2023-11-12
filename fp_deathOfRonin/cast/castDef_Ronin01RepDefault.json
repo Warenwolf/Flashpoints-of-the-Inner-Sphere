@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_Ronin01RepDefault",
+    "internalName" : "Ronin01RepDefault",
+    "firstName" : "Tsato",
+    "lastName" : "Zenegai",
+    "callsign" : null,
+    "rank" : "Ronin",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_KuritaRep_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

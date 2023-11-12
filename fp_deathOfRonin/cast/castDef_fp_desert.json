@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_desert",
+    "internalName" : "castDef_fp_desert",
+    "firstName" : "Desert Warriors' Sergeant",
+    "lastName" : "",
+    "callsign" : "Yataghan",
+    "rank" : "Sergeant",
+    "gender" : "Male",
+    "factionID" : "Rasalhague",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" :false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/fp_deathOfRonin/portrait/guiTxrPort_fp_desert.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

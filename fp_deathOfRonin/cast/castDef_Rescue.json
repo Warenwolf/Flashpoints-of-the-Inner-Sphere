@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Rescue",
+    "internalName" : "Rescue",
+    "firstName" : "Unknown",
+    "lastName" : "Mining Employee",
+    "callsign" : "Mouse",
+    "rank" : "None",
+    "gender" : "NonBinary",
+    "factionID" : "Rasalhague",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/fp_deathOfRonin/portrait/guiTxrPort_Rescue.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_Ronin01",
+        "Name" : "Renegade DCMS soldiers",
+        "Details" : "This is the heraldry def DCMS Ronins",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrIcon_Ronin01",
+    "primaryMechColorID" : "Red_05",
+    "secondaryMechColorID" : "Orange_04",
+    "tertiaryMechColorID" : "Red_04"
+}

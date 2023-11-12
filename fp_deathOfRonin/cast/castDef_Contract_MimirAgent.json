@@ -1,0 +1,24 @@
+{
+   "id" : "castDef_Contract_MimirAgent",
+   "internalName" : "Contract_MimirAgent",
+   "firstName" : "MIMIR Kapten Österaas",
+   "lastName" : null,
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "Male",
+   "factionID" : "Rasalhague",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" : false,
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../MODS/fp_deathOfRonin/portrait/guiTxrPort_Contract_MimirAgent.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

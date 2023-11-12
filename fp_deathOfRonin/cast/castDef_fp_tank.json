@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_tank",
+    "internalName" : "castDef_fp_tank",
+    "firstName" : "Ronin Base Commander",
+    "lastName" : "Ronin Base Commander",
+    "callsign" : "Shogun",
+    "rank" : "Sho-sa",
+    "gender" : "Male",
+    "factionID" : "Ronin01",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" :false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_DEST_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

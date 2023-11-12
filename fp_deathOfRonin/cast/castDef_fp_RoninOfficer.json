@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_RoninOfficer",
+    "internalName" : "castDef_fp_RoninOfficer",
+    "firstName" : "Ronin Officer",
+    "lastName" : "Ronin Officer",
+    "callsign" : "Hellfire",
+    "rank" : "Sho-Sa",
+    "gender" : "Male",
+    "factionID" : "Ronin01",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_01_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

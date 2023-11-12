@@ -1,0 +1,19 @@
+{
+   "id" : "castDef_Ronin01Default",
+   "internalName" : "Ronin01Default",
+   "firstName" : "Kurita",
+   "lastName" : "Ronin",
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "NonBinary",
+   "factionID" : "Ronin01",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_Kurita_default_utr.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

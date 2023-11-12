@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Ronin01DefaultCommander",
+    "internalName" : "Ronin01DefaultCommander",
+    "firstName" : "Ronin",
+    "lastName" : "Captain",
+    "callsign" : "",
+    "rank" : "Tai-i",
+    "gender" : "NonBinary",
+    "factionID" : "Ronin01",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_Kurita_default_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

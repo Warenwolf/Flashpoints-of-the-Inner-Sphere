@@ -1,0 +1,213 @@
+{
+    "Description": {
+        "Id": "event_fp_attack",
+        "Name": "Our crew attacked on the Casino barge",
+        "Details": "Leaving the conference room, you take some time to visit the wounded from the recent attack. The decks are in chaos as they prepare for another combat drop while simultaneously dealing with the effects of the attack on the crew.\r\n\r\nTo your surprise, you spot [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] in the sickbay.\r\n\r\nYou are not a medical expert, but even you recognize the smell and sight of gunshot wounds....",
+        "Icon": "uixTxrSpot_attacker.png"
+    },
+    "Scope": "MechWarrior",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "MechWarrior",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": "Tags/PilotTags"
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": "Tags/PilotTags"
+        },
+        "RequirementComparisons": [
+            {
+                "obj": "Injuries",
+                "op": "Equal",
+                "val": 0,
+                "valueConstant": "0"
+            }
+        ]
+    },
+    "AdditionalObjects": [
+        {
+            "Scope": "SecondaryMechWarrior",
+            "Requirements": {
+                "Scope": "SecondaryMechWarrior",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": [
+                        "pilot_brave"
+                    ],
+                    "tagSetSourceFile": "Tags/PilotTags"
+                },
+                "RequirementComparisons": [
+                    {
+                        "obj": "Injuries",
+                        "op": "Equal",
+                        "val": 0,
+                        "valueConstant": "0"
+                    }
+                ]
+            }
+        }
+    ],
+    "Options": [
+        {
+            "Description": {
+                "Id": "outcome_0",
+                "Name": "[[TGT_MW,{TGT_MW.Callsign}]] answers your question.",
+                "Details": "safer",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "outcome_0_0",
+                        "Name": "MechWarriors were injured in the exchange of fire.",
+                        "Details": "[[TGT_MW,{TGT_MW.Callsign}]] explains, \"Me and [[SCN_MW,{SCN_MW.Callsign}]] went over to provide security for our rescue efforts.\r\n\r\nPatrolling the corridors, adjacent to the docks where our wounded were treated, we encountered one of the attackers. He took us by surprise, shooting [[SCN_MW,{SCN_MW.Callsign}]] and then me before we could react.\r\n\r\nHowever, the attacker underestimated how thick [[SCN_MW,{SCN_MW.Callsign}]]'s skull is. He was still strong enough to lift his gun and put two bullets into the attacker. \"\r\n\r\n[[SCN_MW,{SCN_MW.Callsign}]] gives a weak smile to that but then groans from the pain.\r\n",
+                        "Icon": ""
+                    },
+                    "Weight": 70,
+                    "Results": [
+                        {
+                            "Scope": "MechWarrior",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "RemovedTags": {
+                                "items": [],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "Stats": [
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "Injuries",
+                                    "value": "1",
+                                    "set": false,
+                                    "valueConstant": null
+                                }
+                            ],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        },
+                        {
+                            "Scope": "SecondaryMechWarrior",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "pilot_brave"
+                                ],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "RemovedTags": {
+                                "items": [
+                                    "pilot_cautious"
+                                ],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "Stats": [
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "Injuries",
+                                    "value": "2",
+                                    "set": false,
+                                    "valueConstant": null
+                                }
+                            ],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                },
+                {
+                    "Description": {
+                        "Id": "outcome_1_1",
+                        "Name": "MechWarriors were injured in the exchange of fire.",
+                        "Details": "[[TGT_MW,{TGT_MW.Callsign}]] explains, \"Me and [[SCN_MW,{SCN_MW.Callsign}]] went over to provide security for our rescue efforts.\r\n\r\nPatrolling the corridors, adjacent to the docks where our wounded were treated, we encountered one of the attackers. He took us by surprise, shooting [[SCN_MW,{SCN_MW.Callsign}]] and then me before we could react.\r\n\r\nHowever, the attacker underestimated how thick [[SCN_MW,{SCN_MW.Callsign}]]'s skull is. He was still strong enough to lift his gun and put two bullets into the attacker. \"\r\n\r\n[[SCN_MW,{SCN_MW.Callsign}]] gives a weak smile to that but then groans from the pain.\r\n",
+                        "Icon": ""
+                    },
+                    "Weight": 30,
+                    "Results": [
+                        {
+                            "Scope": "MechWarrior",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "RemovedTags": {
+                                "items": [],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "Stats": [
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "Injuries",
+                                    "value": "2",
+                                    "set": false,
+                                    "valueConstant": null
+                                }
+                            ],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        },
+                        {
+                            "Scope": "SecondaryMechWarrior",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "pilot_cautious"
+                                ],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "RemovedTags": {
+                                "items": [
+                                    "pilot_brave"
+                                ],
+                                "tagSetSourceFile": "Tags/PilotTags"
+                            },
+                            "Stats": [
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "Injuries",
+                                    "value": "2",
+                                    "set": false,
+                                    "valueConstant": null
+                                }
+                            ],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

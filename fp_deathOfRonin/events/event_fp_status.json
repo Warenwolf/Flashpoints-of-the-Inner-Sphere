@@ -1,0 +1,209 @@
+{
+    "Description": {
+        "Id": "event_fp_status",
+        "Name": "Effects of the decisions",
+        "Details": "Leadership entails making tough decisions where every choice comes with its own set of consequences.\r\nLeaders must consider both benefits and costs, recognizing the inherent challenges of their roles.\r\nThey cannot expect to make choices without trade-offs, and perfection is a rare luxury in the realm of leadership. ",
+        "Icon": "uixTxrSpot_PublicSpeaker"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "Valg1",
+                "Name": "You have decided to give people R&R",
+                "Details": "",
+                "Icon": ""
+            },
+            "RequirementList": [
+                {
+                    "Scope" : "Flashpoint",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "fp_choice_a"
+                        ]
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : null
+                    },
+                    "RequirementComparisons" : []
+                }],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2a",
+                        "Name": "Choice A",
+                        "Details": "The decision to allow the crew to go in small groups to the Casino Barge orbiting the planet has boosted morale but has also resulted in a decrease in the efficiency of our technical operations.\r\n\r\n",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": [
+                                
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "3",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+								{
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-2500",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+									],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": true,
+                            "ResultDuration": 7
+                        },
+						{
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": [
+                                
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-25000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+									],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Flashpoint",
+                "RequirementTags": {
+                    "items": "",
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        },
+		{
+            "Description": {
+                "Id": "Valg2",
+                "Name": "You have refused to give people R&R",
+                "Details": "",
+                "Icon": ""
+            },
+            "RequirementList": [{
+                    "Scope" : "Flashpoint",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "fp_choice_b"
+                        ]
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : null
+                    },
+                    "RequirementComparisons" : []
+                }],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2b",
+                        "Name": "Choice B",
+                        "Details": "The news of your refusal to provide proper R&R has significantly diminished morale throughout the ship. People believe they've already given a lot and are now being asked for even more.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": [
+                                
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-5",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+									],
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": true,
+                            "ResultDuration": 28
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Flashpoint",
+                "RequirementTags": {
+                    "items": "",
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": "fp_choice_a",
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

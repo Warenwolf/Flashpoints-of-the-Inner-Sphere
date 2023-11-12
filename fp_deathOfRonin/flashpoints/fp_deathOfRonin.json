@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Id" : "fp_deathOfRonin",
+        "Name" : "Requiem for Ronin",
+        "Details" : "Post Ronin War flashpoint",
+        "Icon" : "uixTxrSpot_Ronin.png"
+    },
+    "Weight" : 333,
+    "InternalName" : "deathOfRonin",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_alhillah"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Rasalhague"
+    ],
+    "TargetFaction" : "Ronin01",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_deathOfRonin",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 40,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 40,
+    "RewardCollectionID" : "itemCollection_loot_none",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "The Ronin War ended with the defeat of those who opposed the Free Rashalgue Republic's bid for independence, but much work remains. In Al Hillah system, a contractor is seeking a short-term contract with a mercenary company skilled in hot drop insertions or as a quick reaction force unit.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "identifier" : "Bkt_c_fp_deathOfRonin_VictoryDialogue02",
+    "contents" : [
+        {
+            "words" : "This is it, Commander! The final battle of this operation! And what a glorious battle it was. Let's debrief once you're back on your ship.",
+            "wordsColor" : {
+                "r" : 1,
+                "g" : 1,
+                "b" : 1,
+                "a" : 1
+            },
+            "selectedCastDefId" : "castDef_BakirMulleric",
+            "emote" : "Default",
+            "dialogueOrigin" : "pilot",
+            "audioEventEntryIndex" : 0,
+            "audioEventEntryText" : "NONE",
+            "conversationIdx" : 0,
+            "cameraFocus" : {
+                "EncounterObjectGuid" : ""
+            },
+            "revealRadius" : -1
+		}
+       ]
+}
