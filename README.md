@@ -1,5 +1,9 @@
 # Flashpoints of the Inner Sphere
 
+
+![uixTxrSpot_Ronin](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/5de1c072-52fb-4aa3-bb65-f259ff63e43d)
+
+
 Welcome to Flashpoints of the Inner Sphere!
 
 This repository features lore-inspired flashpoints set in the Battletech universe, taking place during the late Succession Wars era, specifically in the 3030s and 3040s. In the flashpoints "Smash and Grab" and "The Meatgrinder," you will participate in events and battles from the war between the Capellan Confederation and the Andurien-Canopian alliance.
