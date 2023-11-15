@@ -1433,7 +1433,7 @@
               "encounterChunk" : {
                 "EncounterObjectGuid" : "1c3ad7ab-e81f-46af-a926-96b42fd171bd"
             },
-            "enableChunkFromContract" : true,
+            "enableChunkFromContract" : false,
             "controlledByContractChunkGroupList" : [
                 "Employer Forces Chunk Group"
             ],
@@ -1444,7 +1444,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "889ff9a0-067e-4fc5-bb85-99c2ee9e9e81"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [
                 "Employer Forces Chunk Group"
             ],
@@ -1706,7 +1706,7 @@
                     "revealRadius" : -1
                 },
 				{
-                    "words" : "Don't let them all die, Commander.",
+                    "words" : "Don't waste their lives, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1831,7 +1831,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.",
+                    "words" : "Draken 3 is down! We're still in the fight, but down one.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1913,7 +1913,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "The {TEAM_EMP.FactionDef.Demonym} lance has been destroyed.",
+                    "words" : "The {TEAM_EMP.FactionDef.Demonym} Draken lance has been destroyed.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3002,7 +3002,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, the KungsArmé's support 'Mech lance, codenamed Kilo, has arrived.",
+                    "words" : "Commander, the KungsArmé's support 'Mech lance, codenamed Draken, has arrived.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3018,7 +3018,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "That's an affirmative, {COMPANY.CompanyName}. Kilo Lance on station and ready to provide support.",
+                    "words" : "That's an affirmative, {COMPANY.CompanyName}. Draken Lance on station and ready to provide support.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3034,7 +3034,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Understood Kilo Actual, glad to have you with us.",
+                    "words" : "Understood Draken Actual, glad to have you with us.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3059,39 +3059,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "PLACEHOLDER. Understood Lance leader, glad to have you with us.",
+                    "words" : "Commander, the KungsArmé's support 'Mech lance, codenamed Draken, has arrived.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3102,6 +3070,38 @@
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "That's an affirmative, {COMPANY.CompanyName}. Draken Lance on station and ready to provide support.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Understood Draken Actual, glad to have you with us.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -3493,7 +3493,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "805d4192-850e-446e-afe4-cdb8a30685b4"
                         },
-                        "customUnitName" : "Kilo Lance",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_archer_ARC-2R",
@@ -3526,7 +3526,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6ae5d3ea-3c9d-4d76-b1c7-76abe1b298ff"
                         },
-                        "customUnitName" : "Kilo Lance",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_vulcan_VL-5T",
@@ -3559,7 +3559,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "c4b4e072-864a-4158-8daf-2d35deee61ec"
                         },
-                        "customUnitName" : "Kilo Lance",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_shadowhawk_SHD-2H",
@@ -3592,7 +3592,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "83c28f4a-e44d-4d82-8c0f-f66dbe5abbe9"
                         },
-                        "customUnitName" : "Kilo Lance",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_orion_ON1-K",
@@ -3628,7 +3628,7 @@
                     "EncounterObjectGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7"
                 },
                 "name" : "Lance_Employer_Secondary",
-                "lanceDefId" : "Tagged",
+                "lanceDefId" : "Manual",
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_mech"
@@ -3646,19 +3646,19 @@
                     "items" : [],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment" : 0,
+                "lanceDifficultyAdjustment" : 8,
                 "selectedLanceDefId" : "",
-                "selectedLanceDifficulty" : 0,
+                "selectedLanceDifficulty" : 8,
                 "overrideSpawnMethod" : null,
                 "unitSpawnPointOverrideList" : [
                     {
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "4886c566-b263-412f-939e-e9b77e9e9c11"
                         },
-                        "customUnitName" : "",
+						"customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_archer_ARC-2R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3671,7 +3671,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_striker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3688,10 +3688,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "ca9adbcf-caf7-47bb-b7d5-88a8980fb92e"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_vulcan_VL-5T",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3704,7 +3704,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_recon",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3718,13 +3718,13 @@
                         "selectedPilotDefId" : ""
                     },
                     {
-                        "unitSpawnPoint" : {
+						"unitSpawnPoint" : {
                             "EncounterObjectGuid" : "ef369b82-0d23-4300-907c-a820e1064251"
                         },
-                        "customUnitName" : "",
+                         "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_shadowhawk_SHD-2H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3737,7 +3737,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3754,10 +3754,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "97c7fb7a-6e9d-46b5-b1e2-795177ec115b"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Draken Lance",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_orion_ON1-K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3770,7 +3770,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_sentinel",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
