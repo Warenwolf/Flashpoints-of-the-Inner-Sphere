@@ -264,14 +264,14 @@
 			"name": "Dialogue_MissionStart",
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [{
-					"words": "Commander, we've reached the coordinates we were provided.",
+					"words": "Commander, the lance is at the coordinates we were provided.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
 						"b": 1,
 						"a": 1
 					},
-					"selectedCastDefId": "castDef_CynthianaXue",
+					"selectedCastDefId": "castDef_SumireDefault",
 					"emote": "Default",
 					"audioName": "NONE",
 					"cameraFocusGuid": "",
