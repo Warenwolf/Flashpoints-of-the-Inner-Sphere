@@ -514,14 +514,14 @@
             "overrideDialogueBucketId" : null,
             "dialogueContent" : [
                 {
-                    "words" : "<color=#FF0000>We are getting wrecked over here! Where is my support!?</color>",
+                    "words" : "",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_fp_RoninOfficer",
+                    "selectedCastDefId" : "castDef_fp_desert",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",

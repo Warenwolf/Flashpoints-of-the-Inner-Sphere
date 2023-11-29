@@ -2,17 +2,17 @@
     "Name": "fp_deathOfRonin",
     "Enabled": true,
 
-    "Version": "1.0.0",
+    "Version": "1.0.2",
     "Description": "Flashpoint taking place in the aftermath of the Ronin War",
     "Author": "Warenwolf/MRB",
 	
-	"DependsOn": [ "Timeline", "Mission Control", "BT_Extended_Timeline"],
+	"DependsOn": [ "Timeline", "BT_Extended_Timeline"],
 	
 	"DataAddendumEntries":[{ "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json", "AddToDB": true} ],
     "Manifest": [
     { "Type": "CastDef", "Path": "cast" },
 	{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
-	{ "Type": "SimGameEventDef", "Path": "events" },
+	{ "Type": "SimGameEventDef", "Path": "events", "AddToDB": false },
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
 	{ "Type": "FactionDef", "Path": "factions" },
 	{ "Type": "HeraldryDef", "Path": "heraldryDef" },
@@ -25,6 +25,7 @@
 	{ "Type": "PilotDef", "Path": "pilot" },
 	{ "Type": "TurretDef", "Path": "turret", "AddToDB": false },
 	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "AbilityDef","Path": "ability","AddToDB": false },
 	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
 }

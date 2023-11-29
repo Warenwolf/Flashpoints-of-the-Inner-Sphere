@@ -1,11 +1,11 @@
 {
     "Description": {
         "Id": "pilot_FP_ace_sharpshooter",
-        "Name": "Ronin Sniper",
-        "FirstName": "Ronin Sniper",
+        "Name": "Sharpshooter",
+        "FirstName": "Sharpshooter",
         "LastName": "NONE",
         "Callsign": "Deathdealer",
-        "Gender": "Female",
+        "Gender": "Male",
         "Faction": "Kurita",
         "Age": 30,
         "Details": "NONE",
@@ -30,8 +30,7 @@
     "abilityDefNames": [
         "AbilityDefG5",
         "AbilityDefG8",
-        "AbilityDefT5A",
-        "AbilityDefHiredGuns"
+        "AbilityDefElite",
 		"TraitDefUnsteadySet60",
         "TraitDefEvasiveChargeAddOne",
         "TraitDefSprintIncrease20",

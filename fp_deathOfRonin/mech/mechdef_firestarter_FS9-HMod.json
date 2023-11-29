@@ -19,7 +19,7 @@
 	"Description": {
 		"Cost": 6510000,
 		"Rarity": 2,
-		"Purchasable": true,
+		"Purchasable": false,
 		"Manufacturer": null,
 		"Model": null,
 		"UIName": "Firestarter FS9-H Field Mod",
