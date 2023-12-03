@@ -1,0 +1,18 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : "null",
+        "Model" : "null",
+        "UIName" : "null",
+        "Id" : "heraldrydef_Morenci",
+        "Name" : "Morenci Gang",
+        "Details" : "This is the heraldry def of Morenci Gang",
+        "Icon" : ""
+    },
+    "textureLogoID" : "uixTxrLogo_Morenci",
+    "primaryMechColorID" : "Metallic_Red",
+    "secondaryMechColorID" : "Metallic_Silver",
+    "tertiaryMechColorID" : "BrightYellow_01"
+}

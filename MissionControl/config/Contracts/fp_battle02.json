@@ -1,0 +1,33 @@
+{
+	"ID": "fp_battle02",
+	"RandomSpawns": {
+		"Enable": false
+	},
+	"HotDropProtection": {
+		"Enable": false
+	},
+	"AdditionalLances": {
+		"Enable": false,
+		"EnemyLanceCount": 1,
+		"EnemyLances": [ "Damaged_Medium_Battle_Lance" ],
+		"EnemyLanceObjectiveNames" : [ "Destroy Morenci Medium Lance" ],
+		"HideObjective": true,
+		"ShowObjectiveOnLanceDetected": false,
+		"AlwaysDisplayHiddenObjectiveIfPrimary": false,
+		"AllyLanceCount": 0
+	},
+	"ExtendedLances": {
+		"Enable": true,
+		"EnemyLanceSize": 8
+			},
+	"ExtendedBoundaries": {
+		"Enable": true,
+		"IncreaseBoundarySizeByPercentage": 1
+	},
+	"DynamicWithdraw": {
+		"Enable": false
+	},
+	"AdditionalPlayerMechs": {
+		"Enable": false
+	}
+}

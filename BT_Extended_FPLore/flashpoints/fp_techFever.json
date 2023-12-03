@@ -1,0 +1,22 @@
+{
+    "Weight" : 1000,
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+				"timeline_3041",
+				"planet_name_baliggora"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+				"timeline_3047",
+				"flashpoint_losTechFever_complete"
+                
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}

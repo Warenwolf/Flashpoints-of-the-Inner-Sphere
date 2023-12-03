@@ -1,0 +1,80 @@
+{
+    "Description": {
+        "Id": "event_fp_situation02",
+        "Name": "Rumors", 
+        "Details": "After the meeting, you decide that you need to unwind somehow. Post-battle damage analyses with Yang is important but it can wait.\r\n\r\nYou navigate your way to the inviting glow of the ship's bar. Few of the crew hands greet you but leave you alone to your thoughts. As you settle into a corner booth, the feeling of tiredness hits you. You close your eyes and lean back.",
+        "Icon": "uixTxrSpot_bar.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue",
+                "Details": "Continue",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Rumors",
+                        "Details": "Over the noise of conversation and an old tune, you hear [[TGT_MW,{TGT_MW.Callsign}]] talking with [[SCN_MW,{SCN_MW.Callsign}]].\r\n\r\n\"This friend of mine always sends me updates and news from home - regularly like clockwork\", {TGT_MW.Gender?Male:he|Female:she|NonBinary:they} explains, \"But I am not getting any messages from home...\"\r\n\r\n\"Same thing here - I have a contact on Solaris VII that sends me updates on off-stage drama between stables there. You think [[DM.BaseDescriptionDefs[LoreHPG],HPG]] is having issues?\"\r\n\r\nYou ignore the rest of their conversation, spotting a slightly frustrated Yang heading your way.\"Boss, did you forget about our meeting again?\" ",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

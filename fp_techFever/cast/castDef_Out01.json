@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Out01",
+    "internalName" : "Out01",
+    "firstName" : "Alliance",
+    "lastName" : "MechWarrior",
+    "callsign" : "",
+    "rank" : "Lance Leader",
+    "gender" : "Male",
+    "factionID" : "Outworld",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_liao_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

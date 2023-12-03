@@ -1,0 +1,58 @@
+{
+    "ID" : "faction_Morenci",
+    "Name" : "Morenci",
+    "ShortName" : "Morenci Gang",
+    "Description" : "Morenci Gang is a band of deserters and failed mercenaries led by former Lyrian Hauptmann, certain Mordecai Beaumunt. They are run of the mill criminals with exception that they have wield some heavy firepower.",
+    "Demonym" : "Morenci",
+    "Government" : "Pirate",
+    "Allies" : [
+	 "AuriganPirates"
+    ],
+    "Enemies" : [
+        "Rasalhague",
+		"Kurita",
+		"Davion",
+        "Steiner",
+		"Marik",
+		"Locals"
+		
+		
+    ],
+    "Presence" : 0.25,
+    "ReputationStatements" : [
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Hah! We'll make a bandit out of you yet!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"You win some, you lose some...That's the nature of the job"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"YWhat the hell was that!?"
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_PirateDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_PirateDefault",
+    "DataManager" : null,
+    "factionID" : "Morenci",
+    "icon" : "uixTxrLogo_Morenci",
+    "heraldryDefId" : "heraldrydef_Morenci",
+    "storePanelImage" : null,
+	"factionStoreColor" : null,	
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

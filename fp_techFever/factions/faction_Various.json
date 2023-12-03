@@ -1,0 +1,52 @@
+{
+    "ID" : "faction_Various",
+    "Name" : "Various",
+    "ShortName" : "Various Hostile Groups",
+    "Description" : "You will face several hostile groups during this mission.",
+    "Demonym" : "Various Hostile Groups",
+    "Government" : "pirate",
+    "Allies" : [
+	 "AuriganPirates"
+    ],
+    "Enemies" : [
+        
+		
+    ],
+    "Presence" : 1,
+    "ReputationStatements" : [
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Hah! We'll make a bandit out of you yet!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"You win some, you lose some...That's the nature of the job"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"YWhat the hell was that!?"
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_PirateDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_PirateDefault",
+    "DataManager" : null,
+    "factionID" : "Various",
+    "icon" : "uixTxrIcon_Various_001",
+    "heraldryDefId" : "heraldrydef_Morenci",
+    "storePanelImage" : null,
+	"factionStoreColor" : null,	
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

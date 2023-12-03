@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_BakirMulleric",
+    "internalName" : "BakirMulleric",
+    "firstName" : "Bakir",
+    "lastName" : "Mulleric",
+    "callsign" : "Longsword",
+    "rank" : "Overste-Loytnant",
+    "gender" : "Male",
+    "factionID" : "Rasalhague",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/fp_techFever/portrait/guiTxrPort_BakirMulleric.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

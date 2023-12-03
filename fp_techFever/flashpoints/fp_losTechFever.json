@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Id" : "fp_losTechFever",
+        "Name" : "LosTech Fever",
+        "Details" : "Search for LosTech",
+        "Icon" : "uixTxrSpot_techFever.png"
+    },
+    "Weight" : 100,
+    "InternalName" : "losTechFever",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 10,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_baliggora"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+"PotentialEmployers" : [
+        "Rasalhague"
+    ],
+    "TargetFaction" : "Various",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_losTechFever",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 180,
+    "RewardCollectionID" : "itemCollection_loot_fp_tf1",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "A former FRR client is reaching out regarding a somewhat peculiar contract with limited details. We are required to provide security for an FRR long-range mission to a world inside the Outworlds Alliance. Apparently, they have encountered an issue and require security from a third party to avoid conflict with the local authorities.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}
