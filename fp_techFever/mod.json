@@ -12,7 +12,7 @@
     "Manifest": [
     { "Type": "CastDef", "Path": "cast" },
 	{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
-	{ "Type": "SimGameEventDef", "Path": "events", "AddToDB": false },
+	{ "Type": "SimGameEventDef", "Path": "events", "AddToDB": true },
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
 	{ "Type": "FactionDef", "Path": "factions" },
 	{ "Type": "HeraldryDef", "Path": "heraldryDef" },
