@@ -36,7 +36,7 @@
     "AvailableTimeout" : 1441,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 180,
-    "RewardCollectionID" : "itemCollection_loot_none",
+    "RewardCollectionID" : "itemCollection_loot_fp_deathOfRonin",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "The Ronin War ended with the defeat of those who opposed the Free Rashalgue Republic's bid for independence, but much work remains. In Al Hillah system, a contractor is seeking a short-term contract with a mercenary company skilled in hot drop insertions or as a quick reaction force unit.",
