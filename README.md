@@ -6,9 +6,9 @@
 
 Welcome to Flashpoints of the Inner Sphere!
 
-This repository features lore-inspired flashpoints set in the Battletech universe, taking place during the late Succession Wars era, specifically in the 3030s and 3040s. In the flashpoints "Smash and Grab" and "The Meatgrinder," you will participate in events and battles from the war between the Capellan Confederation and the Andurien-Canopian alliance.
+This repository features lore-inspired flashpoints set in the Battletech universe, taking place during the late Succession Wars era, specifically in the 3030s and 3040s. In the flashpoints "Smash and Grab" and "The Meatgrinder," you will participate in events and battles from the war between the Capellan Confederation and the Andurien-Canopian alliance.The "Requiem for Ronin" flashpoint deals with the aftermath of the Ronin War while in "War of '39" you will be taking part in War of 3039 in Lyran mercenary campaign.
 
-On the other hand, the "Requiem for Ronin" flashpoint deals with the aftermath of the Ronin War. It focuses on people who refuse to accept their loss in the war and an unknown third party that provides financial support to them.
+On the other hand, the "LosTech Fever" flashpoint deals with the discovery of a LosTech cache in Outworlds Alliance where you will face fierce opposition from pirates who found it first and certain organisation that wants to hoard all LosTech for itself. 
 
 The flashpoints are designed for the Battletech game by Harebrained Schemes, which has the "BattleTech Extended 3025 - 3061" (BEX) mod installed. 
 To see when the different flashpoints become available, head to [wiki](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/wiki/Flashpoints:-Overview) where you will find details for the individual flashpoint.
