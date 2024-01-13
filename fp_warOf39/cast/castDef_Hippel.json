@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Hippel",
+    "internalName" : "Hippel",
+    "firstName" : "Andreas",
+    "lastName" : "von Hippel",
+    "callsign" : "CPT",
+    "rank" : "Captain",
+    "gender" : "Male",
+    "factionID" : "Steiner",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/fp_warOf39/portrait/guiTxrPort_Hippel.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

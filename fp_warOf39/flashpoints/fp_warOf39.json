@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Id" : "fp_warOf39",
+        "Name" : "War of '39",
+        "Details" : "War of '39",
+        "Icon" : "uixTxrSpot_warOf39.png"
+    },
+    "Weight" : 400,
+    "InternalName" : "warOf39",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_setubal"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Steiner"
+    ],
+    "TargetFaction" : "Kurita",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_warOf39",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 250,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 30,
+    "RewardCollectionID" : "itemCollection_loot_fp_w39",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "On the 16th of April, the Federated Commonwealth invaded the Draconis Combine, plunging the Inner Sphere once again into the throes of war. Yet, for us mercenaries, war means new opportunities. Aiming to keep the DCMS off-balance, the Lyrans are orchestrating mercenary operations in the Alshain and Pesht Military Districts. Although small in size, our company proves ideally suited for operations in the Setubal system...",
+    "FlashpointDescriberCastDefId" : "castDef_infosign",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

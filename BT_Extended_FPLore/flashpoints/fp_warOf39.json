@@ -1,0 +1,21 @@
+{
+    "Weight" : 1000,
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+				"timeline_3039_04_16",
+                "planet_name_setubal"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+					},
+        "ExclusionTags" : {
+            "items" : [
+				"timeline_3042_01_01",
+                "flashpoint_warOf39_complete"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}

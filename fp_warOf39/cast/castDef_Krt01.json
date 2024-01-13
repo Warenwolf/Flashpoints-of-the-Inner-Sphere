@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Krt01",
+    "internalName" : "Krt01",
+    "firstName" : "Kuritan Militia",
+    "lastName" : "MechWarrior",
+    "callsign" : "",
+    "rank" : "Sergeant",
+    "gender" : "Male",
+    "factionID" : "Kuritan",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_GenericMW_kurita_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

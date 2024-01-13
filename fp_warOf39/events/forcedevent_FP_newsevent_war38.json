@@ -1,0 +1,90 @@
+{
+    "Description": {
+        "Id": "forcedevent_FP_newsevent_war38",
+        "Name": "Voice of the Dragon",
+        "Details": "<b>LYRAN BANDITS RAID SETUBAL!</b>\r\n\r\n\r\n\r\nLyran-contracted mercenaries, the notorious <b>{COMPANY.CompanyName}</b>, shamelessly carried out banditry operations last week, callously targeting defenseless civilian targets and evading fair and honorable combat.\r\n\r\n\r\nThe local population, defenseless against the ruthless onslaught of heavily armed mercenary lances, showcased their courage and unwavering loyalty to the Dragon despite the egregious acts committed by these nefarious mercenaries.",
+        "Icon": "uixTxrTimeLine_VoiceoftheDragon.png"
+    },
+    "Scope": "Company",
+    "Weight": 5,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Voice of the Dragon",
+                        "Details": "In the face of the {COMPANY.CompanyName}'s heartless violence, the valiant citizens of [[DM.SystemDefs[starsystemdef_Setubal],Setubal]] rose in an overwhelming display of collective heroism. Braving the dangers to their lives, they inflicted substantial losses upon the marauding bandit forces.\r\n\r\n\r\nLet the stirring accounts of their courage (read witness accounts <color=#85DBF6FF>here</color>) serve as a beacon, fortifying our nation's unwavering resolve against the enemy in this war. Their indomitable spirit fuels the flame of patriotism that shall guide us through the darkest hours.\r\n\r\n\r\n\r\nThis is the Voice of the Dragon",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        
+                            {
+                                "Scope": "Company",
+                                "Requirements": null,
+                                "AddedTags": {
+                                    "items": [],
+                                    "tagSetSourceFile": ""
+                                },
+                                "RemovedTags": {
+                                    "items": null,
+                                    "tagSetSourceFile": ""
+                                },
+                                "Stats": [
+                                    {
+										"typeString" : "System.Int32",
+										"name" : "Reputation.Kurita",
+										"value" : "-4",
+										"set" : false,
+										"valueConstant" : null
+                                    }
+                                ]
+                            }
+                        
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": null
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
