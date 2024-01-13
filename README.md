@@ -16,8 +16,8 @@ To see when the different flashpoints become available, head to [wiki](https://g
 If time and real life permits, I plan to expand this repository with additional flashpoints taking place in the time before the Clan invasion. 
 If you are playing this during 3030s and 3040s in-game, I strongly advise use of my mod [News Events Expanded](https://github.com/Warenwolf/News-Events-Expanded) that adds 80+ news events between 3030 and 3045, all true to the cannon, and which give some background to the events during the flashpoints.
 
+![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/32efb7fc-b896-41f8-948c-36041176488d)
 
-![image](https://github.com/Warenwolf/Flashpoints-of-the-Inner-Sphere/assets/136007621/6b0db8cd-9f2a-44f3-a241-f575a89c5efb)
 
 ### Installation
 
