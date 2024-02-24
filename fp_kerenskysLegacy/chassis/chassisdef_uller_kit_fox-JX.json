@@ -1,0 +1,215 @@
+{
+  "Description": {
+    "Cost": 6300000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "????",
+    "Id": "chassisdef_uller_kit_fox-JX",
+    "Name": "???",
+    "Details": "The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade.",
+    "Icon": "uixTxrIcon_uller"
+  },
+  "MovementCapDefID": "movedef_uller-6",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_kitfox",
+  "PrefabIdentifier": "chrprfmech_kitfoxbase-001",
+  "PrefabBase": "kitfox",
+  "Tonnage": 30,
+  "InitialTonnage": 10.0,
+  "weightClass": "LIGHT",
+  "Heatsinks": 10,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 35,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "CenterTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "LeftLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 9.5,
+      "z": 9.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": 8.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": 8.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 9.5,
+      "z": 9.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": 8.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": 8.5
+    },
+    {
+      "x": -1.5,
+      "y": 3.0,
+      "z": 3.0
+    },
+    {
+      "x": 1.5,
+      "y": 3.0,
+      "z": 3.0
+    }
+  ],
+  "VariantName": "Mech",
+  "ChassisTags": {
+    "items": [
+      "chassis_omni",
+      "chassis_DHS",
+      "chassis_endo",
+      "chassis_ferro",
+      "chassis_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ],
+  "StockRole": "Light Cavalry",
+  "YangsThoughts": "The Uller J is a Jump capable configuration. The weaponry is not as long range as some configurations but the Jump Jets allow it the manoeuvrability to make use of it."
+}

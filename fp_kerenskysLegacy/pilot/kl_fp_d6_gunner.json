@@ -1,0 +1,47 @@
+{
+	"Description": {
+		"Id": "kl_fp_d6_gunner",
+		"Name": "Gunner",
+		"FirstName": "Clan",
+		"LastName": "Warrior",
+		"Callsign": "Sniper",
+		"Gender": "Female",
+		"factionID": "Davion",
+		"Age": 30,
+		"Details": "NONE",
+		"Icon": "Wildfire"
+	},
+	"BaseGunnery": "7",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_overload01",
+	"abilityDefNames": [
+		
+		"TraitDefRefireReduceTwo",
+		"TraitDefRefireReduceOne",
+		"TraitDefCalledShotImprove",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"TraitDefHeadshotImmunity",
+		"AbilityDefG8",
+		"AbilityDefG5"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [ "BLACKLISTED", "pilot_cannot_be_headshot" ],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0
+}

@@ -1,0 +1,463 @@
+{
+    "Description" : {
+        "Id" : "event_fp_tooManyRadishes02",
+        "Name" : "Boring food",
+        "Details" : "The long journey from Von Strang's World left no opportunities to resupply the Argo's food stores. Today, the crew decided to voice their complaints. Even before you enter the mess hall you can hear the palpable buzz of grumbling.  [[TGT_MW,{TGT_MW.Callsign}]]'s voice rises above the clamor.\r\n\r\n\"Radishes? <i>Radishes</i>?! I swear, if I ever see another radish on my plate, I'm going to jump out an airlock and hope the next DropShip to come along has a better cook!\"\r\n\r\nThe echo of agreement that follows suggests a rising disenchantment with the mess hall's current menu.",
+        "Icon" : "uixTxrSpot_MessDeckFull.png"
+    },
+    "Scope" : "MechWarrior",
+    "Weight" : 40,
+    "Requirements" : {
+        "Scope" : "MechWarrior",
+        "RequirementTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : null,
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : null,
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "MODIFIED_STAT_MechTechSkill",
+                    "MODIFIED_STAT_MedTechSkill"
+                ],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "RequirementComparisons" : [
+                {
+                    "obj" : "Morale",
+                    "op" : "LessThan",
+                    "val" : 15,
+                    "valueConstant" : "15"
+                },
+                {
+                    "obj" : "MechTechSkill",
+                    "op" : "GreaterThanOrEqual",
+                    "val" : 2000,
+                    "valueConstant" : "2000"
+                },
+                {
+                    "obj" : "MedTechSkill",
+                    "op" : "GreaterThanOrEqual",
+                    "val" : 2,
+                    "valueConstant" : "2"
+                }
+            ]
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Do nothing.",
+                "Details" : "Non-participation option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Morale loss",
+                        "Details" : "As you sit next to Darius in the mess, you can tell that he's heard this entire radish-related rant from beginning to end. He raises his eyebrow to ask a question. You shake your head to answer it.\r\n\r\n\"All right, Commander, I agree that we just need to ride this out. You know I'm doing the best I can with the resources we have.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "-1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_1",
+                "Name" : "Purchase a greater variety of food from local farmers.",
+                "Details" : "[\u00A2200,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 200000,
+                            "valueConstant" : "200000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_1_0",
+                        "Name" : "Morale up",
+                        "Details" : "In the next morning briefing, Darius furrows his brow as he runs the numbers.\r\n\r\n\"Yeah, I can make it work for a month. But I can't keep squeezing blood from a stone. Don't expect this to work every time you ask.\"\r\n\r\nDr. Murad quickly interjects, \"Commander, we'll willingly make sacrifices to escape the radishes.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "2",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-200000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_2",
+                "Name" : "Purchase a greater variety of food with funds diverted from other departments.",
+                "Details" : "Rob Peter to pay Paul option",
+                "Icon" : ""
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_2_0",
+                        "Name" : "Morale Gain, Med and Mech losses",
+                        "Details" : "In the next morning briefing, Darius furrows his brow as he runs the numbers.\r\n\r\n\"Yeah, I think we can rearrange things for a month. But we'll definitely be feeling it in terms of 'Mech repair time and how quickly our pilots bounce back from injuries.\"\r\n\r\nDr. Murad sees Yang about to open his mouth to complain and quickly interjects, \"Commander, we'll <i>all</i> willingly make sacrifices to escape the radishes.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-1000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "MedTechSkill",
+                                    "value" : "-1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 30
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        },
+        {
+            "Description" : {
+                "Id" : "outcome_3",
+                "Name" : "Buy some fresh crops from local farmers.",
+                "Details" : "[\u00A250,000]",
+                "Icon" : ""
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "StarSystem",
+                    "RequirementTags" : {
+                        "items" : [
+                            "planet_industry_agriculture"
+                        ],
+                        "tagSetSourceFile" : "Tags/PlanetTags"
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : []
+                },
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Travel",
+                            "op" : "Equal",
+                            "val" : 0,
+                            "valueConstant" : "0"
+                        }
+                    ]
+                },
+				 {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "ExclusionTags" : {
+                        "items" : null,
+                        "tagSetSourceFile" : ""
+                    },
+                    "RequirementComparisons" : [
+                        {
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 50000,
+                            "valueConstant" : "50000"
+                        }
+                    ]
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_3_0",
+                        "Name" : "small Morale boost",
+                        "Details" : "Later in the week, Darius reports his progress to the morning briefing.\r\n\r\n\"It's good timing that we're in orbit over a planet with a robust agriculture industry. I managed to secure a wider variety of fruits and vegetables. Not sure if it's an improvement, but it's different.\"\r\n\r\nDr. Murad chuckles. \"Anything tastes heavenly compared to three weeks of radishes.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 75,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "1",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+								
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-50000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                },
+                {
+                    "Description" : {
+                        "Id" : "outcome_3_1",
+                        "Name" : "big Morale boost",
+                        "Details" : "Later in the week, Darius reports his progress to the morning briefing.\r\n\r\n\"It's good timing that we're in orbit over a planet with a robust agriculture industry. Turns out they have bit of overproduction problems, and I found easily local farmers who were excited to make a trade. We are the happy owners of 600 kg of pickles, 400 kg of onions and 1 ton of potatoes.\"\r\n\r\nDr. Murad chuckles. \"Anything tastes heavenly compared to three weeks of radishes.\"",
+                        "Icon" : ""
+                    },
+                    "Weight" : 25,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : null,
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Morale",
+                                    "value" : "2",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                },
+                                {
+                                    "typeString" : "System.Int32",
+                                    "name" : "Funds",
+                                    "value" : "-50000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                                }
+                            ],
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : null,
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE"
+}

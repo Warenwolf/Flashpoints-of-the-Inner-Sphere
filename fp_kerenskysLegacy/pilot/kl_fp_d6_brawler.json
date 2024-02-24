@@ -1,0 +1,50 @@
+{
+	"Description": {
+		"Id": "kl_fp_d6_brawler",
+		"Name": "Brawler",
+		"FirstName": "Clan",
+		"LastName": "Warrior",
+		"Callsign": "TR2",
+		"Gender": "Male",
+		"factionID": "JadeFalcon",
+		"Age": 30,
+		"Details": "NONE",
+		"Icon": "Wildfire"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "5",
+	"BonusPiloting": 0,
+	"BaseGuts": "8",
+	"BonusGuts": 0,
+	"BaseTactics": "4",
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_overload01",
+	"abilityDefNames": [
+		"TraitDefRefireReduceOne",
+		"TraitDefCalledShotImprove",
+		"TraitDefEvasiveChargeAddOne",
+		"TraitDefOverheatAddFifteen",
+		"TraitDefHealthAddTwo",
+		"TraitDefHealthAddOne",
+		"TraitDefUnsteadySet60",
+		"TraitDefIndirectReduceTwo",
+		"TraitDefIndirectReduceOne",
+		"TraitDefHeadshotImmunity",
+		"AbilityDefGu5",
+		"AbilityDefGu8",
+		"AbilityDefP5"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [ "pilot_npc_brawler", "pilot_npc_dynamic", "pilot_npc_d6", "BLACKLISTED", "pilot_cannot_be_headshot" ],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0
+}

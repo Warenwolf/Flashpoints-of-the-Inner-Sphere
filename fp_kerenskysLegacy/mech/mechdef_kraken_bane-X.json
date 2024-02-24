@@ -1,0 +1,389 @@
+{
+  "ChassisID": "chassisdef_kraken_bane-X",
+  "MechTags": {
+    "items": [
+      "unit_release",
+      "unit_ready",
+      "unit_mech",
+      "unit_assault",
+      "unit_role_sniper",
+      "unit_lance_support",
+	  "unit_indirectFire",
+	  "unit_range_long",
+	  "unit_speed_low",
+	  "unit_armor_high",
+	  "BLACKLISTED",
+		"unit_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Description": {
+    "Cost": 41090000,
+    "Rarity": 5,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Mech Type Unknown",
+    "Id": "mechdef_kraken_bane-X",
+    "Name": "???",
+    "Details": "The Kraken 3 changes the weapons configuration totally. Eight LRM-15 provide fire support, while sixteen tons of ammunition proves sufficient for the design. A One-Shot Streak SRM-4 provides one-time close support. Nineteen double heat sinks are up to the task of keeping the design cool.",
+    "Icon": "uixTxrIcon_kraken"
+  },
+  "simGameMechPartCost": 4100000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 230,
+      "CurrentRearArmor": 65,
+      "CurrentInternalStructure": 155,
+      "AssignedArmor": 230,
+      "AssignedRearArmor": 65
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 50
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 170,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 170,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 170,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 85,
+      "AssignedArmor": 170,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "Head",
+      "ComponentDefID": "Weapon_SRM_CSSRM4_OneShot",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_CLRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

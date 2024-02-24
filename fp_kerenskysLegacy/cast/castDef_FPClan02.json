@@ -1,12 +1,12 @@
 {
-    "id" : "castDef_infosign",
-    "internalName" : "infosign",
-    "firstName" : "",
-    "lastName" : "",
-    "callsign" : "",
-    "rank" : "INFO",
+    "id" : "castDef_FPClan02",
+    "internalName" : "FPClan02",
+    "firstName" : "Clan",
+    "lastName" : "Officer",
+    "callsign" : "CJF",
+    "rank" : "Star Commander",
     "gender" : "Male",
-    "factionID" : "Rasalhague",
+    "factionID" : "Kurita",
     "sgCharType" : "UNSET",
     "showRank" : true,
     "showFirstName" : true,
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../MODS/fp_warOf39/portrait/guiTxrPort_infosign.png"
+        "portraitAssetPath" : "../../MODS/fp_kerenskysLegacy/portrait/guiTxrPort_FPClan02.png"
     },
     "emotePotraitList" : [
         

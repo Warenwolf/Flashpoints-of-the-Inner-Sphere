@@ -1,0 +1,65 @@
+{
+    "Description" : {
+        "Id" : "fp_fkerenskysLegacy",
+        "Name" : "Kerensky's Legacy",
+        "Details" : "Clans are comming",
+        "Icon" : "uixTxrSpot_fp_kerenskyslegacy.png"
+    },
+    "Weight" : 150,
+    "InternalName" : "fkerenskysLegacy",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 10,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [
+                    "fkerenskysLegacy_tag_clansHereB"
+                ],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "flashpoint_fkerenskysLegacy_complete"
+                ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_vonstrang'sworld"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Kurita"
+    ],
+    "TargetFaction" : "Unknown",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_fkerenskysLegacy",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 180,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 10,
+    "RewardCollectionID" : "itemCollection_loot_fp_fkerenskysLegacy",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "You are hired  by a wealthy Kuritan industrial magnate to rescue his son, who has disappeared somewhere on Von Strang's World. The Barony of Strang has been established by proud decedents of Amaris supporters and see themselves as true heirs of Inner Sphere. If that wasn't enough, there are rumors of marauders with formidable mechs rampaging through the Periphery. The clock is ticking, Commander...",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

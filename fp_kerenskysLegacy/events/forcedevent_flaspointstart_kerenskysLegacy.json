@@ -1,0 +1,122 @@
+{
+    "Description": {
+        "Id": "forcedevent_flaspointstart_kerenskysLegacy",
+        "Name": "Incoming transmission",
+        "Details": "You are taking a stroll around the ship, making sure to visit all sections and chat with the crew. Darius calls this management by walking around, but for you, it is just a way to break the boredom.\r\n\r\nAs you enter the 'Mech bays, intending to see what Yang is up to, Darius intercepts you, waving for Yang to come over too.",
+        "Icon": "uixTxrSpot_Lounge"
+    },
+    "Scope": "Company",
+    "Weight": 9999,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": [
+			"fkerenskysLegacy_tag_clansHere"
+			],
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": [
+			{
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            },
+            {
+                "obj" : "Reputation.MercenaryReviewBoard",
+                "op" : "GreaterThanOrEqual",
+                "val" : 800,
+                "valueConstant" : "800"
+            },
+			{
+                            "obj" : "Funds",
+                            "op" : "GreaterThan",
+                            "val" : 4000000,
+                            "valueConstant" : "4000000"
+            }
+		]
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Incoming transmission",
+                        "Details": "\"What is happening Darius?\" you ask your XO once Yang joins you.\r\n\r\n\"We got priority transmission from a potential customer via [[DM.BaseDescriptionDefs[LoreRepKurita],Reynauld Yamaguchi]] ,\" Darius explains to you and Yang. You all exchange glances - this is highly unusual. Reynauld Yamaguchi is one of Kurita's mercenary liasons - one of the least capable ones. Not the type to chase the mercs...\r\n\r\n\"What client does he represent?\" Yang asks.\r\n\r\n\"A private company from Draconis Combine. Not much I can tell you about them. They are paying 50 000 CBills if we take the call...\"\r\n\r\n\"Can't argue against that,\" Yang says. You nod in agreement. Three of you head to the conference room, picking up rest of the management group along the way.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [	{
+                            "typeString" : "System.Int32",
+                            "name" : "Funds",
+                            "value" : "50000",
+                            "set" : false,
+                            "valueConstant" : null
+										}],
+                            "Actions" : [
+                                {
+                                    "Type" : "System_StartConversation",
+									"value" : "9cee7c421c60936ce58a1aa2",
+									"valueConstant" : null,
+									"additionalValues" : [
+									"Few minutes later...",
+									"In orbit around {TGT_SYSTEM.Name}",
+									"Ship",
+									null
+                                    ]
+                                }
+                        
+                                
+                            ],
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+				
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

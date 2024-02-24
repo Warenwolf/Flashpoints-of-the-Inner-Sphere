@@ -1,0 +1,236 @@
+{
+  "Description": {
+    "Cost": 34050000,
+    "Rarity": 5,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "???",
+    "Id": "chassisdef_kraken_bane-X",
+    "Name": "???",
+    "Details": "The Kraken 3 changes the weapons configuration totally. Eight LRM-15 provide fire support, while sixteen tons of ammunition proves sufficient for the design. A One-Shot Streak SRM-4 provides one-time close support. Nineteen double heat sinks are up to the task of keeping the design cool.",
+    "Icon": "uixTxrIcon_kraken"
+  },
+  "MovementCapDefID": "movedef_kraken_bane-1",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_ionbane",
+  "PrefabIdentifier": "chrprfmech_ionbanebase-001",
+  "PrefabBase": "ionbane",
+  "Tonnage": 100,
+  "InitialTonnage": 28.5,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 28,
+  "MaxJumpjets": 0,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 110,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 125,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "CenterTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
+    },
+    {
+      "Location": "RightTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "RightLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 5.5
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 5.5
+    }
+  ],
+  "VariantName": "Mech",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.05-1.05-1.05",
+      "chassis_DHS",
+      "chassis_clan",
+      "mech_quirk_extendedtorsotwist",
+      "mech_quirk_protectedactuators"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ],
+  "StockRole": "Juggernaut",
+  "YangsThoughts": "Incredible 'Mech. The Kraken rivals the Daishi in fear factor, the huge potential damage it can put out in such a quick time can be done at incredible ranges. The Kraken 3 is uniquely a problem because of the indirect fire potential, but it is loaded up like a fireworks factory full of ammo."
+}

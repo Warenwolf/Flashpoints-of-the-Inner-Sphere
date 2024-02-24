@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPClanLeader",
+    "internalName" : "FPClanLeader",
+    "firstName" : "Unknown",
+    "lastName" : "Officer",
+    "callsign" : "CJF",
+    "rank" : "Star Commander",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/fp_kerenskysLegacy/portrait/guiTxrPort_FPClanLeader.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}
