@@ -1,0 +1,81 @@
+{
+  "ID": "02_fp_kl_interceptlance",
+  "RandomSpawns": {
+    "Enable": false
+  },
+  "HotDropProtection": {
+    "Enable": true
+  },
+  "AdditionalLances": {
+    "Enable": false,
+    "EnemyLanceCount": 2,
+    "AllyLanceCount": 1
+  },
+  "ExtendedLances": {
+    "Enable": true,
+    "EnableForFlashpoints": true,
+    "EnableForStory": false,
+    "Autofill": false,
+   	"AutofillType": "RespectEmpty",
+	"LanceSizes": {
+		"5": [
+		  {
+			"Faction": "Wolf",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "JadeFalcon",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "GhostBear",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "SmokeJaguar",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "NovaCat",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "SteelViper",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "DiamondShark",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "WolfInExile",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "WolfsDragoons",
+			"DifficultyMod": 0
+		  }
+		],
+      "6": [
+		  {
+			"Faction": "ComStar",
+			"DifficultyMod": 0
+		  },
+		  {
+			"Faction": "WordOfBlake",
+			"DifficultyMod": 0
+		  }
+		]
+    }
+  },
+  "ExtendedBoundaries": {
+    "Enable": true,
+    "IncreaseBoundarySizeByPercentage": 0.5
+  },
+  "DynamicWithdraw": {
+    "Enable": true
+  },
+  "AdditionalPlayerMechs": {
+    "Enable": false
+  }
+}
