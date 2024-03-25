@@ -11,8 +11,9 @@
 					},
         "ExclusionTags" : {
             "items" : [
-				"timeline_3039_12_30",
-                "flashpoint_warOf39_complete"
+				"flashpoint_warOf39_complete",
+				"timeline_3042_12_30"
+                
             ],
             "tagSetSourceFile" : ""
         },

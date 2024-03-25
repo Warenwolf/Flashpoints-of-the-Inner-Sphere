@@ -19,7 +19,7 @@
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
-            "items" : [],
+            "items" : ["flashpoint_warOf39_complete"],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []
