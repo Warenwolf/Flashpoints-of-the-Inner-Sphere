@@ -4,11 +4,14 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "items" : ["flashpoint_smashAndGrab_complete"],
+                "items" : ["timeline_3031_02_15","flashpoint_smashAndGrab_complete"],
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "ExclusionTags" : {
-                "items" : [],
+                "items" : [
+				"timeline_3032_05_23",
+                "flashpoint_theMeatgrinder_complete"
+            ],
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
@@ -18,16 +21,13 @@
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-				"timeline_3031_02_15",
+				
                 "planet_name_betelgeuse"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
-            "items" : [
-				"timeline_3032_05_23",
-                "flashpoint_theMeatgrinder_complete"
-            ],
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []

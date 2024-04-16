@@ -1,20 +1,33 @@
 {
     "Weight" : 1000,
+	"Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["timeline_3030_09_01"],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+            "items" : [
+                "timeline_3031_08_27",
+				"flashpoint_smashAndGrab_complete"
+            ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-				"timeline_3030_09_01",
+				
                 "planet_name_repulse"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
-            "items" : [
-				"timeline_3031_08_27",
-				"flashpoint_smashAndGrab_complete"
-                
-            ],
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []

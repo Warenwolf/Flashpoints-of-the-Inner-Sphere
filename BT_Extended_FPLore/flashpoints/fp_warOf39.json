@@ -1,20 +1,33 @@
 {
     "Weight" : 1000,
+	"Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["timeline_3039_04_16"],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+            "items" : [
+            	"flashpoint_warOf39_complete",
+				"timeline_3039_12_30"
+            ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-				"timeline_3039_04_16",
+				
                 "planet_name_setubal"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
 					},
         "ExclusionTags" : {
-            "items" : [
-				"flashpoint_warOf39_complete",
-				"timeline_3042_12_30"
-                
-            ],
+            "items" : [],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []

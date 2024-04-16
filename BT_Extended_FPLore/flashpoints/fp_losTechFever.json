@@ -4,16 +4,14 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "items" : ["timeline_3035"],
+                "items" : ["timeline_3039_03_16"],
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "ExclusionTags" : {
             "items" : [
+				"timeline_3047",
+				"flashpoint_losTechFever_complete"
                 
-				"timeline_3039",
-				"flashpoint_deathOfRonin_complete"
-                
-            
             ],
                 "tagSetSourceFile" : ""
             },
@@ -25,7 +23,7 @@
         "RequirementTags" : {
             "items" : [
 				
-				"planet_name_alhillah"
+				"planet_name_baliggora"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
