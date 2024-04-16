@@ -2,8 +2,8 @@
     "Description" : {
         "Id" : "event_mod_FP-WarOf39",
         "Name" : "Butchers of Setubal",
-        "Details" : "After you and Darius finished networking for new contracts on {TGT_SYSTEM.Name}, you meet up with [[TGT_MW,{TGT_MW.Callsign}]] in the local market, three of you looking for a place to relax a bit before heading back to Argo.\r\n\r\nYou catch attention of a young women, your strange accents catching her attention. She studies the insignia on your gear. \"{COMPANY.CompanyName}... You were Lyrian mercenaries that butchered those people on Setubal.\"\r\n\r\nQuickly looking around, you see the that the crowd has grown quietly attentive. You notice a militia man with rifle, turning its safety off",
-        "Icon" : "uixTxrSpot_RuralTown.png"
+        "Details" : "After you and Darius finished networking for new contracts on {TGT_SYSTEM.Name}, you met up with [[TGT_MW,{TGT_MW.Callsign}]] in the local market, the three of you seeking a place to relax a bit before heading back to the Argo.\r\n\r\nYou catch the attention of a young woman, your peculiar accents piquing her interest. She studies the insignia on your gear before angrily reacting, \"{COMPANY.CompanyName}!? You were Lyran mercenaries that butchered all those people on Setubal!\"\r\n\r\nGlancing around quickly, you see that the few young locals stopping up, staring hard at three of you. On your right, you notice a militia lifting his submachine gun, turning off its safety.",
+        "Icon" : "uixTxrSpot_RuralT.png"
     },
     "Scope" : "MechWarrior",
     "Weight" : 40,
@@ -41,7 +41,12 @@
                     "flashpoint_warOf39_complete_followup"
                 ]
             },
-            "RequirementComparisons" : []
+            "RequirementComparisons" : [{
+                "obj" : "Travel",
+                "op" : "Equal",
+                "val" : 0,
+                "valueConstant" : "0"
+            }]
         },
         {
             "Scope" : "StarSystem",
@@ -65,7 +70,7 @@
         {
             "Description" : {
                 "Id" : "outcome_0",
-                "Name" : "Tell them that they've got the wrong mercenaries.",
+                "Name" : "Tell her that she is mistaken.",
                 "Details" : "Dishonest option",
                 "Icon" : null
             },
@@ -105,7 +110,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "Injuries",
-                        "Details" : "The women doesn't believe you and neither does the crowd. Suddenly, the militia man lifts his rifle.\r\n\r\nSeveral gunshot echoes through the air. {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:twists|Default:twists} to the ground, cradling {TGT_MW.DET} injured arm. Chaos ensues immediately afterward.\r\n\r\nWhen the authorities finally arrive at the scene, you and your team have already made a swift exit, tending to your wounds during the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians, these people would be hailing us as heroes.\"",
+                        "Details" : "The woman doesn't believe you and neither does the growing crowd behind her. She attempts to strike you, but you dodge her attack, instinctively pushing her away. Before you realize what's happening, the militia man opens fire.\r\n\r\n{TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:twists|Default:twists} to the ground, cradling {TGT_MW.DET} injured arm. Next shot hits your body armor. The crowd erupts in chaos, fleeing in all directions but also interrepting the shooter's line of sight.\r\n\r\nWhen the authorities finally arrive at the scene, you and your team have already made a swift exit, tending to your wounds during the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People are scum... If we had been raiding Lyrians, the crowd back there would be hailing us as heroes and paying for our drinks.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,
@@ -150,7 +155,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Injuries",
-                                    "value" : "2",
+                                    "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -177,7 +182,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 180
+                            "ResultDuration" : 720
                         }
                     ]
                 }
@@ -208,7 +213,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "injuries",
-                        "Details" : "The women and the crowd is momentarily taken aback by your admission and then one of of them shouts \"Murderers!\". The militia man lifts and aims his rifle at three of you.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] leaps in the way as a shot rings out, and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:spin|Default:spins} to the ground, clutching {TGT_MW.DET} arm. After that, all hell breaks loose.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, nursing your injuries on the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians, these people would be hailing us as heroes.\"",
+                        "Details" : "The women and the crowd is momentarily taken aback by your admission and then one of of them shouts \"Murderers!\". The militia man aims his submachine gun at three of you.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] leaps in the way as the militia man start firing and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:spin|Default:spins} to the ground, clutching {TGT_MW.DET} arm. Nest round grazes your skull. After that, all hell breaks loose as you and Darius return fire.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, nursing your injuries on the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People are scum... If we had been raiding Lyrians, the crowd back there would be hailing us as heroes and paying for our drinks.\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
@@ -280,69 +285,19 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 180
+                            "ResultDuration" : 720
                         }
                     ]
                 },
                 {
                     "Description" : {
                         "Id" : "outcome_1_1",
-                        "Name" : "less injuries",
-                        "Details" : "The women and the crowd is momentarily taken aback by your admission and then one of of them shouts \"Murderers!\". The militia man lifts his rifle and aims it at three of you.\r\n\r\n\r\n\r\nBut before the rifle is fully up, [[TGT_MW,{TGT_MW.Callsign}]] is firing his sub-machinegun killing the man before he manages to fire a shot. After that, all hell breaks loose.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, nursing your injuries on the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians, these people would be hailing us as heroes.\"",
+                        "Name" : "gun fight",
+                        "Details" : "The women and the crowd is momentarily taken aback by your admission and then one of of them shouts \"Murderers!\". The militia man lifts his submachine gun and aims it at three of you.\r\n\r\n\r\n\r\nBut before he manages to fire a single shot, [[TGT_MW,{TGT_MW.Callsign}]] is firing {TGT_MW.DET} own gun, killing the militia man instantly. After that, all hell breaks loose.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, taking the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People are scum... The same crowd back there would be hailing us as heroes and paying our drinks if we had been raiding Lyran worlds during the war...\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
                     "Results" : [
-                        {
-                            "Scope" : "Commander",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : []
-                            },
-                            "RemovedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : []
-                            },
-                            "Stats" : [
-                                {
-                                    "typeString" : "System.Int32",
-                                    "name" : "Injuries",
-                                    "value" : "1",
-                                    "set" : false,
-                                    "valueConstant" : null
-                                }
-                            ],
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 0
-                        },
-                        {
-                            "Scope" : "MechWarrior",
-                            "Requirements" : null,
-                            "AddedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : []
-                            },
-                            "RemovedTags" : {
-                                "tagSetSourceFile" : "",
-                                "items" : []
-                            },
-                            "Stats" : [
-                                {
-                                    "typeString" : "System.Int32",
-                                    "name" : "Injuries",
-                                    "value" : "1",
-                                    "set" : false,
-                                    "valueConstant" : null
-                                }
-                            ],
-                            "Actions" : null,
-                            "ForceEvents" : null,
-                            "TemporaryResult" : false,
-                            "ResultDuration" : 0
-                        },
                         {
                             "Scope" : "Company",
                             "Requirements" : null,
@@ -360,7 +315,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 180
+                            "ResultDuration" : 360
                         }
                     ]
                 }
@@ -406,7 +361,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "less injuries",
-                        "Details" : "You stall for time with the woman, keeping her confused, yet engaged.  Meanwhile [[TGT_MW,{TGT_MW.Callsign}]] maneuvers through the crowd, approaching from behind the militia man with a rifle.\r\n\r\nJust as the rest of the crowd begins to hum with anticipated violence, your MechWarrior punches the man in the jaw and she drops like a sack of potatoes. After that, all hell breaks loose.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, nursing your injuries on the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians, these individuals would be hailing us as heroes.\"",
+                        "Details" : "You stall for time with the woman, keeping her confused, yet engaged.  Meanwhile [[TGT_MW,{TGT_MW.Callsign}]] maneuvers through the crowd, approaching from behind the militia man.\r\n\r\nJust as the rest of the crowd begins to hum with anticipated violence, your MechWarrior pistol-whips the man in the head and he drops like a sack of potatoes. Seeing that, crowd erupts in the violence.\r\n\r\nBy the time the authorities arrive on the scene, you and your team are long gone, nursing your wounds from the steet fight on the shuttle ride back to the <i>Argo</i>.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians during the world, the locals would be hailing us as heroes and paying for our drinks.\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
@@ -428,7 +383,7 @@
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 360
+                            "ResultDuration" : 720
                         },
                         {
                             "Scope" : "MechWarrior",
@@ -486,7 +441,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "least  injuries",
-                        "Details" : "You stall for time with the women, keeping her confused, yet engaged. Meanwhile, [[TGT_MW,{TGT_MW.Callsign}]] maneuvers through the crowd. One after the other, {TGT_MW.SUBJ} quietly disarms several thugs and finally the militia man with the rifle. The crowd is none the wiser, focused as they are on the women's insistence as to your identity.\r\n\r\nThe rest of the crowd hums for a moment longer, disappointed at the lack of conflict, but then continues with their business in the market.\r\n\r\nDarius expresses his frustration with a sigh. \"People... If we had been raiding Lyrians, these individuals would be hailing us as heroes.\"",
+                        "Details" : "You stall for time with the women, keeping her confused, yet engaged. Meanwhile, [[TGT_MW,{TGT_MW.Callsign}]] maneuvers through the crowd. One after the other, {TGT_MW.SUBJ} quietly disarms several thugs and finally the armed militia man. The crowd is none the wiser, focused as they are on the women's insistence as to your identity.\r\n\r\nThe rest of the crowd hums for a moment longer, disappointed at the lack of conflict, but then continues with their business in the market.\r\n\r\nDeciding not to test your luck any further, you all quickly leave the scene.",
                         "Icon" : null
                     },
                     "Weight" : 50,

@@ -2,7 +2,7 @@
     "Name": "fp_smashAndGrab",
     "Enabled": true,
 
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "Description": "Flashpoint - Raid for CCAF behind the enemy lines during Andurien Crises",
     "Author": "Warenwolf/MRB",
     "Manifest": [
