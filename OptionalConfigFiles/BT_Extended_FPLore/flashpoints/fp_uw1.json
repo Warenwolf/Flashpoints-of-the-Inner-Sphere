@@ -1,0 +1,38 @@
+{
+    "Weight" : 1000,
+	
+	"Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+				"timeline_3028", "flashpoint_uw1_complete"
+						],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_fagerholm"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

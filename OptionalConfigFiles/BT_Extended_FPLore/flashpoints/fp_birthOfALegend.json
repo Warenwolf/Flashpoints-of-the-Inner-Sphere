@@ -1,0 +1,38 @@
+{
+    "Weight" : 1000,
+	
+	"Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+                "items" : [
+				
+				"timeline_3028",
+                "fp_finished_birthOfALegend"
+				
+				],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+	
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_trell(trellwan)"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}

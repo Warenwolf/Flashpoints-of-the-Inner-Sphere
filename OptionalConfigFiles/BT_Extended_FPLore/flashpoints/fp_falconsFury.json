@@ -1,0 +1,36 @@
+{
+    "Weight" : 1000,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["timeline_3050"],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+            "items" : [
+                "timeline_3052", "fp_finished_falconsFury"
+            ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+	"LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+				
+                "planet_name_sudeten"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+				
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}

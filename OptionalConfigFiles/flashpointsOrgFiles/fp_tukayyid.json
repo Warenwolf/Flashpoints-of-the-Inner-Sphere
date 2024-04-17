@@ -1,0 +1,21 @@
+{
+    "Weight" : 1000,
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+				"timeline_3052",
+                "planet_name_tukayyid"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+				"timeline_3053",
+                "fp_finished_tukayyid"
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}

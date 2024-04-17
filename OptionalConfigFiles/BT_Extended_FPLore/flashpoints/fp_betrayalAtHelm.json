@@ -1,0 +1,35 @@
+{
+    "Weight" : 1000,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["timeline_3028"],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+                "items" : ["timeline_3031",
+                "fp_finished_betrayalAtHelm"],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+				
+                "planet_name_helm"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [
+				
+            ],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    }
+}
