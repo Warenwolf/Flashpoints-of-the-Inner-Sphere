@@ -1,0 +1,63 @@
+{
+    "Description" : {
+        "Id" : "fp_Westerhandgames",
+        "Name" : "Westerhand Games",
+        "Details" : "Low on cash",
+        "Icon" : "uixTxrSpot_fp_westerhand.png"
+    },
+    "Weight" : 2500,
+    "InternalName" : "Westerhandgames",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 2,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "flashpoint_Westerhandgames_complete"
+                ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_westerhand"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Corp1"
+    ],
+    "TargetFaction" : "MechGladiators1",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_Westerhandgames",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 360,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 60,
+    "RewardCollectionID" : "itemCollection_loot_fp_Westerhandgames",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "Are you seeking fame, fortune, and the ultimate challenge? Come to Victory City in the Westerhand system, where you can showcase your martial prowess and compete for a state-of-the-art heavy BattleMech!",
+    "FlashpointDescriberCastDefId" : "castDef_FPOwn1",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

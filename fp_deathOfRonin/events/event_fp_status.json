@@ -2,7 +2,7 @@
     "Description": {
         "Id": "event_fp_status",
         "Name": "Effects of the decisions",
-        "Details": "Leadership entails making tough decisions where every choice comes with its own set of consequences.\r\nLeaders must consider both benefits and costs, recognizing the inherent challenges of their roles.\r\nThey cannot expect to make choices without trade-offs, and perfection is a rare luxury in the realm of leadership. ",
+        "Details": "Leadership entails making tough decisions where every choice comes with its own set of consequences.\r\n\r\nLeaders must consider both benefits and costs, recognizing the inherent challenges of their roles. They cannot expect to make choices without trade-offs, and perfection is a rare luxury in the realm of leadership. ",
         "Icon": "uixTxrSpot_PublicSpeaker"
     },
     "Scope": "Company",

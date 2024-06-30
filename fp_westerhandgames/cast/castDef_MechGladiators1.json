@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_MechGladiators1",
+   "internalName" : "MechGladiators1",
+   "firstName" : "Arena",
+   "lastName" : "Gladiators",
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "NonBinary",
+   "factionID" : "Corp1",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../MODS/fp_techFever/sprites/uixTxrIcon_Morenci.png"
+   },
+   "emotePotraitList" : [
+   ]
+}

@@ -1,0 +1,27 @@
+{
+    "Name": "fp_westerhandgames",
+    "Enabled": true,
+
+    "Version": "1.0.0",
+    "Description": "Flashpoint intended for new players",
+    "Author": "Warenwolf/MRB",
+	
+	"DependsOn": [ "Timeline", "Mission Control", "BT_Extended_Timeline"],
+	"DataAddendumEntries":[{ "name":"BattleTech.FactionEnumeration", "path":"enums/Faction.json", "AddToDB": true} ],
+		
+		
+    "Manifest": [
+	
+    { "Type": "CastDef", "Path": "cast" },
+	{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
+	{ "Type": "FactionDef", "Path": "factions" },
+	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
+	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
+	{ "Type": "Sprite", "Path": "sprites" },
+	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
+	{ "Type": "MechDef", "Path": "mech" },
+	{ "Type": "ChassisDef", "Path": "chassis"},
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
+}

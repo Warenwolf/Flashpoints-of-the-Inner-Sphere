@@ -1,0 +1,56 @@
+{
+    "ID" : "faction_MechGladiators1",
+    "Name" : "the Arena Gladiators",
+    "ShortName" : "Gladiators",
+    "Description" : "On Westerhand, desperate MechWarrior gladiators fight for money and renown, aiming to secure contracts. The arenas, kept alive by struggling mercenaries and aspiring warriors who can't afford the trip to Solaris, are run-down and bleak. The battles are brutal, deadly, and short, reflecting the fighters' desperation and the dilapidated state of their equipment.",
+    "Demonym" : "Arena Gladiators",
+    "Government" : "Corporations",
+    "Allies" : [
+	"Kurita","Liao","Davion", "Steiner", "Marik"
+    ],
+    "Enemies" : [
+        
+		
+		"AuriganPirates",
+		"Locals"
+		
+		
+    ],
+    "Presence" : 0.25,
+    "ReputationStatements" : [
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose.",
+        "You wanna get paid, don't you? Take this job, and we all end up with more money. You've nothing to lose."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Good job! Looking forward to working with you in the future!"
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"You win some, you lose some...That's the nature of the job"
+    ],
+	"BadFaithFailureStatements" : [ 
+		"YWhat the hell was that!?"
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_MercenariesDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_MercenaryDefault",
+    "DataManager" : null,
+    "factionID" : "MechGladiators1",
+    "icon" : "uixTxrLogo_EnemyDefault",
+    "heraldryDefId" : "heraldrydef_random",
+    "storePanelImage" : null,
+	"factionStoreColor" : null,	
+    "StartingReputationValues" : [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}
