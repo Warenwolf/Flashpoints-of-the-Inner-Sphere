@@ -27,5 +27,8 @@
 	{ "Type": "MechDef", "Path": "mech" },
 	{ "Type": "AbilityDef","Path": "ability","AddToDB": false },
 	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
-	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
+	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
+	{ "Type": "Sprite", "Path": "emblems", "AddToAddendum": "PlayerEmblems" },
+    { "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }
+	]
 }

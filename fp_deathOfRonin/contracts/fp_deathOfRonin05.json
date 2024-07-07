@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : "Once again excellently executed mission. It has been a pleasure working with you, Sir",
     "badFaithStatementOverride" : "Failure at this junction...is not a option",
     "goodFaithStatementOverride" : "Failure at this junction...is not a option",
-    "shortDescription" : "We've pinpointed the main Ronin force's location, which includes a Cyclops C2IS unit. Defeating this force will eliminate the Ronin threat in Al Hillah and put an end to any schemes they may have been plotting.",
+    "shortDescription" : "We've pinpointed the main Ronin force's location, which includes a Cyclops C2IS unit. Defeating this force will eliminate the Ronin threat in Al Hillah and put an end to any schemes they may have been plotting.\r\n\r\nIt goes without saying that Ronin commander, Ivanova, is primary target.",
     "longDescription" : "Expect that whatever remaining forces the Ronin have will be thrown at you, Commander.",
     "salvagePotential" : 28,
     "requirementList" : [
@@ -59,7 +59,7 @@
         -1,
         -1
     ],
-    "mapMood" : "AridDayClear",
+	"mapMood" : "AridDayClear",
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {

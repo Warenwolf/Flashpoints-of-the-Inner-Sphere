@@ -8,7 +8,7 @@
     "scope": "STANDARD",
     "finalDifficulty": 0,
     "representativeCastDefIDOverride": "castDef_FPOwn2",
-    "missionSuccessStatementOverride": "Excellent fight! We even got request from an off-planet customer regarding the battle recordings!",
+    "missionSuccessStatementOverride": "Excellent fight! The public liked it a lot!",
     "badFaithStatementOverride": "Well...Staying healthy and alive is the most important thing, right?",
     "goodFaithStatementOverride": "You did you best...Better luck next time!",
     "shortDescription": "In the second tier of this competition, you will be fighting in mismatched combinations — either you will have the advantage in numbers or firepower. The battles will take place 25 km outside Victory City.\r\n\r\n\r\nIn the first battle, you will be facing a single Assault class BattleMech. Your objective is to locate and bring it down.",
