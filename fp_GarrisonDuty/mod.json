@@ -1,0 +1,34 @@
+{
+    "Name": "fp_GarrisonDuty",
+    "Enabled": true,
+    "Version": "1.0.0",
+    "Description": "Flashpoint - Garrison Duty, no fighting, flashpoint intended to simulate passing of time/skip time",
+    "Author": "Warenwolf/MRB",
+    "Manifest": [
+        {
+            "Type": "FlashpointDef",
+            "Path": "flashpoints"
+        },
+        {
+            "Type": "SimGameMilestoneSet",
+            "Path": "milestoneSets"
+        },
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+        {
+            "Type": "Sprite",
+            "Path": "sprites"
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        },
+        {
+            "Type": "SimGameEventDef",
+            "Path": "modEvents",
+            "AddToDB": true
+        }
+    ]
+}
