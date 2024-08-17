@@ -1,3 +1,5 @@
 itemCollection_loot_fp_gd,50 000 C-Bills,A,B
 Ammo_AmmunitionBox_Generic_GAUSS,AmmunitionBox,1,1
-
+Ammo_AmmunitionBox_Generic_AC2,AmmunitionBox,1,1
+Ammo_AmmunitionBox_Generic_AC5,AmmunitionBox,1,1
+Ammo_AmmunitionBox_Generic_AC10,AmmunitionBox,1,1

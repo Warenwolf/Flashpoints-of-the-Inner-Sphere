@@ -3,7 +3,7 @@
         "Id" : "fp_warOf39",
         "Name" : "War of '39",
         "Details" : "War of '39",
-        "Icon" : "uixTxrSpot_warOf39.png"
+        "Icon" : "uixTxrSpot_warOf39"
     },
     "Weight" : 400,
     "InternalName" : "warOf39",

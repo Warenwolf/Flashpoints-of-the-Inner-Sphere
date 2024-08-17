@@ -10,7 +10,7 @@
 			"unit_range_short",
 			"unit_speed_low",
 			"unit_armor_high",
-			"BLACKLISTED"
+			"BLACKLISTED",
 			"unit_LosTech"
         ],
         "tagSetSourceFile": ""
