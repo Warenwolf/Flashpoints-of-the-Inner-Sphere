@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPcap1",
+    "internalName" : "FPcap1",
+    "firstName" : "Jump Ship",
+    "lastName" : "Captain",
+    "callsign" : "BSAK",
+    "rank" : "Client",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPcap1.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

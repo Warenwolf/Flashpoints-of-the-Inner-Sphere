@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Miller",
+    "internalName" : "Miller",
+    "firstName" : "Amos",
+    "lastName" : "Miller",
+    "callsign" : "Alpha Actual",
+    "rank" : "Alpha Grade IV Precentor",
+    "gender" : "Male",
+    "factionID" : "ComStar",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_Miller.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

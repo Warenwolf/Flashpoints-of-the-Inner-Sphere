@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPOwn2",
+    "internalName" : "FPOwn2",
+    "firstName" : "Isabella",
+    "lastName" : "García Fernández",
+    "callsign" : "BSAK",
+    "rank" : "Mech Games Organizer",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_OwnerC2.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id" : "castDef_fp_FC2",
+    "internalName" : "castDef_fp_FC2",
+    "firstName" : "Facility Administrator",
+    "callsign" : "Boss",
+    "rank" : "Admin",
+    "gender" : "Male",
+    "factionID" : "Kuritan",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_fp_FC2.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

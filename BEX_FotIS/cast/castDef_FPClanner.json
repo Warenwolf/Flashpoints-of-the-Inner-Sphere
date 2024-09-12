@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPClanner",
+    "internalName" : "FPClanner",
+    "firstName" : "Einar",
+    "lastName" : "Helmer",
+    "callsign" : "CJF",
+    "rank" : "Star Commander",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPClanLeader.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

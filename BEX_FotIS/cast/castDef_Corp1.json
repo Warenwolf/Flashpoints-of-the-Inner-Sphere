@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_Corp1",
+   "internalName" : "Corp1",
+   "firstName" : "Corporate",
+   "lastName" : "Interests",
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "NonBinary",
+   "factionID" : "Corp1",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../MODS/BEX_FotIS/sprites/uixTxrIcon_Morenci.png"
+   },
+   "emotePotraitList" : [
+   ]
+}

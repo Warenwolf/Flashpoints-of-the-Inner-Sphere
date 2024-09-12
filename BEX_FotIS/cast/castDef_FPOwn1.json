@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPOwn1",
+    "internalName" : "FPOwn1",
+    "firstName" : "Carlos",
+    "lastName" : "López García",
+    "callsign" : "BSAK",
+    "rank" : "Mech Game Promoter",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_OwnerC1.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

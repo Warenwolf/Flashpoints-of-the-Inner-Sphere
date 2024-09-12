@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_agent",
+    "internalName" : "fp_agent",
+    "firstName" : "Lyran",
+    "lastName" : "Agent",
+    "callsign" : "CPT",
+    "rank" : "Private",
+    "gender" : "Male",
+    "factionID" : "Steiner",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_fp_agent.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

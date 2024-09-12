@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPsold",
+    "internalName" : "FPsold",
+    "firstName" : "Cilian",
+    "lastName" : "Maher",
+    "callsign" : "BSAK",
+    "rank" : "Junior Mechanic",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPsold.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

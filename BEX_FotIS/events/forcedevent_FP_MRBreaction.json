@@ -1,0 +1,93 @@
+{
+    "Description" : {
+        "Id" : "forcedevent_FP_MRBreaction",
+        "Name" : "Arbitration Meeting",
+        "Details" : "You always knew Precentor Amos Miller wouldn't let the deaths of Com Guard MechWarriors slide after the battles on Balligora.\r\n\r\nLast week, ComStar finally made their move, calling for a arbitration meeting about what they\u2019re now referring to as the \"Balligora Incident.\"\r\n\r\nYou and Darius represented the company, presenting the battle video recordings as evidence. The footage was undeniable, but as you sat there, both you and Darius couldn't help but wonder how this would all play out.",
+        "Icon" : "uixTxrSpot_fp_MRBMeeting"
+    },
+    "Scope" : "Company",
+    "Weight" : 5,
+    "Requirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "AdditionalRequirements" : [],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Continue",
+                "Details" : "Continue",
+                "Icon" : null
+            },
+            "RequirementList" : [],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Arbitration Meeting",
+                        "Details" : "The meeting was brief. As expected, your client on Balligora, the Free Rasalhague Republic, stood firmly behind you. To your surprise, the Federated Commonwealth representative backed you as well, pressing ComStar on why their military wing engaged a mercenary lance without prior communication. \r\n\n\nOn the other side, Amos Miller was adamant that it was your company that went rogue.\r\n\r\n In the end, the meeting concluded with a partial censure of your actions. \n\n\u201CTotally unfair, but this is a good outcome, Boss,\u201D Darius said after hearing the verdict. \u201CA hit on our MRB rating is nothing compared to how this could have gone.\u201D\n\nI nod, agreeing with Darius. Still I feel bitter about the whole affair.",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+                        {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "RemovedTags" : {
+                                "items" : [],
+                                "tagSetSourceFile" : ""
+                            },
+                            "Stats" : [
+                                {
+                                    "typeString": "System.Int32",
+									"name": "Reputation.MercenaryReviewBoard",
+									"value": "-100",
+									"set": false,
+									"valueConstant": null
+                                }
+                            ],
+                            "Actions" : [],
+                            "ForceEvents" : [],
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "ExclusionTags" : {
+                    "items" : [],
+                    "tagSetSourceFile" : ""
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "UNSELECTABLE",
+    "OneTimeEvent" : false,
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/EventTags"
+    }
+}

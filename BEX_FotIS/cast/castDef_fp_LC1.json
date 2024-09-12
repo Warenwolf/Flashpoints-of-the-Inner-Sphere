@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_LC1",
+    "internalName" : "castDef_fp_LC1",
+    "firstName" : "Warrior House Kamata Officer",
+    "lastName" : "Warrior House Kamata Officer",
+    "callsign" : "Warrior",
+    "rank" : "Captain",
+    "gender" : "Male",
+    "factionID" : "Liao",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : false,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_FPMW_liao_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

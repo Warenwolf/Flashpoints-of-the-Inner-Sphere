@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPClan02",
+    "internalName" : "FPClan02",
+    "firstName" : "Clan",
+    "lastName" : "Officer",
+    "callsign" : "CJF",
+    "rank" : "Star Commander",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPClan02.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_PirateA",
+    "internalName" : "PirateA",
+    "firstName" : "Pirate",
+    "lastName" : "Lieutenant",
+    "callsign" : "Alpha Actual",
+    "rank" : "Lieutenant",
+    "gender" : "Male",
+    "factionID" : "Morenci",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_PirateaA.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

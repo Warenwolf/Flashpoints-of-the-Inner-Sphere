@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_CynthianaXue",
+    "internalName" : "CynthianaXue",
+    "firstName" : "Cynthiana",
+    "lastName" : "Xue",
+    "callsign" : "",
+    "rank" : "Subcommander",
+    "gender" : "Female",
+    "faction" : "Liao",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_CynthianaXue.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

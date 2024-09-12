@@ -1,0 +1,19 @@
+{
+   "id" : "castDef_Ronin01",
+   "internalName" : "Ronin01",
+   "firstName" : "Ronin",
+   "lastName" : "Draconis Combine Renegade",
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "NonBinary",
+   "factionID" : "Ronin01",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_Ronin01.png"
+   },
+   "emotePotraitList" : [
+      
+   ]
+}

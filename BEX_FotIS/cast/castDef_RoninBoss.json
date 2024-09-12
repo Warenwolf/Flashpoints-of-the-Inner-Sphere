@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_RoninBoss",
+    "internalName" : "RoninBoss",
+    "firstName" : "Hinata",
+    "lastName" : "Ivanova",
+    "callsign" : "Shogun",
+    "rank" : "Sho-sa",
+    "gender" : "Female",
+    "factionID" : "Ronin01",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" :false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_RoninBoss.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

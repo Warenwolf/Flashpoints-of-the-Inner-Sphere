@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FPclient",
+    "internalName" : "FPclient",
+    "firstName" : "Nagi",
+    "lastName" : "Akiyama",
+    "callsign" : "BSAK",
+    "rank" : "Client",
+    "gender" : "Male",
+    "factionID" : "Kurita",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPclient.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}
