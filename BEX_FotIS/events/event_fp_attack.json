@@ -26,6 +26,7 @@
             }
         ]
     },
+	"AdditionalRequirements": [],
     "AdditionalObjects": [
         {
             "Scope": "SecondaryMechWarrior",

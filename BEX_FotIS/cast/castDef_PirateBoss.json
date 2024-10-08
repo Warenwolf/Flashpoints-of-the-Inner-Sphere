@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_PirateBoss.png"
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_PirateBoss.png"
     },
     "emotePotraitList" : [
         

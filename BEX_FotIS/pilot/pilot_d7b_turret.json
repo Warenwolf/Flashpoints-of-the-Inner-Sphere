@@ -28,8 +28,7 @@
     "Morale": 0,
     "Voice": "f_overload01",
     "abilityDefNames": [
-		"AbilityDefT4",
-		"AbilityDefG3",
+		"AbilityDefG5",
 		"AbilityDefT5A",
 		"AbilityDefG8"
 		

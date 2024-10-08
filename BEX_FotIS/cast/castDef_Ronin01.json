@@ -11,7 +11,7 @@
    "sgCharType" : "UNSET",
    "defaultEmotePortrait" : {
       "emote" : "Default",
-      "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_Ronin01.png"
+      "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_Ronin01.png"
    },
    "emotePotraitList" : [
       

@@ -11,7 +11,7 @@
    "sgCharType" : "UNSET",
    "defaultEmotePortrait" : {
       "emote" : "Default",
-      "portraitAssetPath" : "../../MODS/BEX_FotIS/sprites/uixTxrIcon_Morenci.png"
+      "portraitAssetPath" : "../../Mods/BEX_FotIS/sprites/uixTxrIcon_Morenci.png"
    },
    "emotePotraitList" : [
    ]

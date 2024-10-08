@@ -895,7 +895,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : "Com Guard Adpet",
+                        "customUnitName" : "Com Guard Adept",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
                         "unitDefId" : "mechdef_kingcrab_KGC-000V",

@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../MODS/BEX_FotIS/portrait/guiTxrPort_FPcap1.png"
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_FPcap1.png"
     },
     "emotePotraitList" : [
         
