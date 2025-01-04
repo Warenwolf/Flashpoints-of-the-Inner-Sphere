@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_ComGuard03",
+    "internalName" : "ComGuard03",
+    "firstName" : "Com Guard",
+    "lastName" : "Adept",
+    "callsign" : "Comstar Actual",
+    "rank" : "Adept",
+    "gender" : "Female",
+    "factionID" : "Comstar",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_Adept1.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

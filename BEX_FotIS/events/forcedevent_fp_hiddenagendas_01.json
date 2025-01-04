@@ -1,0 +1,107 @@
+{
+    "Description": {
+        "Id": "forcedevent_fp_hiddenagendas_01",
+        "Name": "Assessing the damage",
+        "Details": "After finishing the meeting, you head back to the sickbay to check on the critically wounded crewmen.\r\n\r\nThe medic glances up as you enter and simply shakes her head. Another men dead...\r\n\r\nYou scan the room, taking in the sight of the injured crew scattered across every available surface in the cramped medbay. The medics are overwhelmed, but somehow, they're managing to keep up.",
+        "Icon": "uixTxrSpot_MedBayPatient"
+    },
+    "Scope": "Company",
+    "Weight": 5,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": [],
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": [],
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "outcome_0",
+                "Name": "Continue",
+                "Details": "Continue",
+                "Icon": null
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "outcome_0_0",
+                        "Name": "Arbitration Meeting",
+                        "Details": "Darius taps you on the shoulder.\r\n\n\u201CThe client called, Boss. ZMI is fully on board with us striking at the Renegades,,\u201D he says, his eyes drifting over the medbay.\u201CThis is going to cost us...\u201D\r\n\nI nod, taking one last look at the wounded before turning away. It was time to drop again...\r\n\n<color=#85DBF6FF>[The high number of wounded MechTechs is going to reduce both our medbay and mechbay capacities, especially since we cannot easily replace lost crewmen here in the Astrokaszy system]</color>",
+                        "Icon": null
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": [],
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": [
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "Morale",
+                                    "value": "-2",
+                                    "set": false,
+                                    "valueConstant": null
+                                },
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "MedTechSkill",
+                                    "value": "-1",
+                                    "set": false,
+                                    "valueConstant": null
+                                },
+                                {
+                                    "typeString": "System.Int32",
+                                    "name": "MechTechSkill",
+                                    "value": "-2000",
+                                    "set": false,
+                                    "valueConstant": null
+                                }
+                            ],
+                            "Actions": [],
+                            "ForceEvents": [],
+                            "TemporaryResult": true,
+                            "ResultDuration": 90
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": [],
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": [],
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE",
+    "OneTimeEvent": false,
+    "Tags": {
+        "items": [],
+        "tagSetSourceFile": "tags/EventTags"
+    }
+}

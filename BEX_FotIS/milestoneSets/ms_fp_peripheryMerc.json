@@ -1,0 +1,1524 @@
+{
+    "StartingMilestoneID": "ms_fp_peripheryMerc_001_Start",
+    "Milestones": [
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_001_Start",
+                "Name": "Start",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Flashpoint",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+                            "fp_choice_b",
+                            "fp_choice_a"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [],
+                    "Actions": [],
+                    "ForceEvents": [],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [],
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_002_Talk",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": [],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_002_Talk",
+                "Name": "Talk",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9cd605b561da9f7d80d0bf4f",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "Lunar Parking Orbit - Ghada, {TGT_FLASHPOINT.CurSystem.Name} System",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_003_DefendAlphaSite",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_003_DefendAlphaSite",
+                "Name": "Defend Alpha Site",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_mountainHold_bMoon",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "c656a1e7-5fb3-4517-aafb-92f95b4286cc",
+                                "01_fp_pm_defendalphasite",
+                                "Marik",
+                                "Unknown",
+                                "6",
+                                "ms_fp_peripheryMerc_004_DefendAlphaSiteII",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_500_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_004_DefendAlphaSiteII",
+                "Name": "DefendAlphaSiteII",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "mapGeneral_mountainHold_bMoon",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "c656a1e7-5fb3-4517-aafb-92f95b4286cc",
+                                "02_fp_pm_defendalphasiteII",
+                                "Marik",
+                                "Unknown",
+                                "7",
+                                "ms_fp_peripheryMerc_005_PostMissionBrief",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_500_Failure",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_005_PostMissionBrief",
+                "Name": "PostMissionBrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c719e8e937314d4e7645068",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "3 hours later...",
+                                "Lunar Parking Orbit - Ghada, {TGT_FLASHPOINT.CurSystem.Name} System",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_006_ConvoyAmbushNo1",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_006_ConvoyAmbushNo1",
+                "Name": "ConvoyAmbushNo1",
+                "Details": "Raid mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_Interchange_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "6ba34102-2c4e-4b3e-9d85-01765f69d518",
+                                "03_fp_pm_patrolingroute",
+                                "Marik",
+                                "PiratesMarian",
+                                "7",
+                                "ms_fp_peripheryMerc_007_Debrief",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_500_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_007_Debrief",
+                "Name": "Debrief",
+                "Details": "Debrief after mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c0f07dd70af54b44ab5ddf5",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Later that day...",
+                                "In Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_008_Combat",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_008_Combat",
+                "Name": "Combat",
+                "Details": "Fighting renegades",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_bigCrater_bMoon",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "361d8ded-7421-46a5-a305-a5688cbec9dd",
+                                "04_fp_pm_RenegadeBattle",
+                                "Marik",
+                                "CRenegades1",
+                                "8",
+                                "ms_fp_peripheryMerc_009_DebriefafterMoonBattle",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_500_Failure",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_009_DebriefafterMoonBattle",
+                "Name": "Debrief after Moon Battle",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9ca6d9d898879da94915ba36",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Back at Argo",
+                                "Lunar Parking Orbit - Ghada, {TGT_FLASHPOINT.CurSystem.Name} System",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_010_FinalBattle",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_010_FinalBattle",
+                "Name": "Final Battle",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_rockyMesas_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "b77ff406-1f71-47dd-8ea3-8038e09f9019",
+                                "05_fp_pm_finalBattle",
+                                "Marik",
+                                "CRenegades1",
+                                "8",
+                                "ms_fp_peripheryMerc_011_DebriefafterMoonBattle",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_500_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_011_DebriefafterMoonBattle",
+                "Name": "Debrief after Moon Battle",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c724c56247169e0e32d58e8",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Back at Argo",
+                                "Lunar Parking Orbit - Ghada, {TGT_FLASHPOINT.CurSystem.Name} System",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_012_Branch",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_012_Branch",
+                "Name": "Branch",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Flashpoint",
+                        "RequirementTags": {
+                            "items": [
+                                "fp_choice_a"
+                            ],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [],
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_100_Complete",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": [],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Flashpoint",
+                        "RequirementTags": {
+                            "items": [
+                                "fp_choice_b"
+                            ],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_200_UnknownEnemy",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Flashpoint",
+                        "RequirementTags": {
+                            "items": [
+                                "fp_choice_c"
+                            ],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_peripheryMerc_301_Complete",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_100_Complete",
+                "Name": "Complete",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [
+                            "flashpoint_peripheryMerc_complete"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_peripheryMerc_101_Reward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_loot_fp_p1",
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_101_Reward",
+                "Name": "Reward",
+                "Details": "Extra rewards, including Reputation and bonus C-Bills go here",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "2",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 60
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Funds",
+                            "value": "500000",
+                            "set": false,
+                            "valueConstant": null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Marik",
+                            "value": "5",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Argo",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Post-Mission Review"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": [
+                        {
+                            "Scope": "Company",
+                            "EventID": "forcedevent_FP_newsevent_pm",
+                            "MinDaysWait": 10,
+                            "MaxDaysWait": 14,
+                            "Probability": 100,
+                            "RetainPilot": false
+                        }
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_200_UnknownEnemy",
+                "Name": "Unknown Enemy",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "mapGeneral_bigCrater_bMoon",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "7d64cf5b-d03e-4482-86f7-803bdbc8f21d",
+                                "06_fp_pm_finalBattle",
+                                "Marik",
+                                "Unknown",
+                                "9",
+                                "ms_fp_peripheryMerc_201_Complete",
+                                null,
+                                null,
+                                "ms_fp_peripheryMerc_201_Complete",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_201_Complete",
+                "Name": "Complete",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [
+                            "flashpoint_peripheryMerc_complete"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_peripheryMerc_202_BadReward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_loot_none",
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_202_BadReward",
+                "Name": "BadReward",
+                "Details": "Extra rewards, including Reputation and bonus C-Bills go here",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-2",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 60
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Marik",
+                            "value": "-1",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Argo",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Post-Mission Review"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": [
+                        {
+                            "Scope": "Company",
+                            "EventID": "forcedevent_FP_newsevent_pm",
+                            "MinDaysWait": 10,
+                            "MaxDaysWait": 14,
+                            "Probability": 100,
+                            "RetainPilot": false
+                        }
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ]
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_301_Complete",
+                "Name": "Complete",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [
+                            "flashpoint_peripheryMerc_complete"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_peripheryMerc_302_BadReward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_loot_none",
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_302_BadReward",
+                "Name": "BadReward",
+                "Details": "Extra rewards, including Reputation and bonus C-Bills go here",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-2",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 60
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Marik",
+                            "value": "-10",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Argo",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Post-Mission Review"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": [
+                        {
+                            "Scope": "Company",
+                            "EventID": "forcedevent_FP_newsevent_pm",
+                            "MinDaysWait": 10,
+                            "MaxDaysWait": 14,
+                            "Probability": 100,
+                            "RetainPilot": false
+                        }
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_peripheryMerc_500_Failure",
+                "Name": "Failure",
+                "Details": "Failed mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [
+                {
+                    "Scope": "Flashpoint",
+                    "RequirementTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "ExclusionTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RequirementComparisons": []
+                }
+            ],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Ship",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_FailFlashpoint",
+                            "value": "0",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": "Tags/CompanyTags"
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Marik",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": "Tags/CompanyTags"
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 120
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        }
+    ]
+}

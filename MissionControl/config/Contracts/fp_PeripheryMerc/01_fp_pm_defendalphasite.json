@@ -1,0 +1,33 @@
+{
+	"ID": "01_fp_pm_defendalphasite",
+	"RandomSpawns": {
+		"Enable": false
+	},
+	"HotDropProtection": {
+		"Enable": false
+	},
+	"AdditionalLances": {
+		"Enable": false,
+		"EnemyLanceCount": 1,
+		"EnemyLances": [ "Damaged_Medium_Battle_Lance" ],
+		"EnemyLanceObjectiveNames" : [ "Destroy Medium Lance" ],
+		"HideObjective": true,
+		"ShowObjectiveOnLanceDetected": false,
+		"AlwaysDisplayHiddenObjectiveIfPrimary": false,
+		"AllyLanceCount": 0
+	},
+	"ExtendedLances": {
+		"Enable": true,
+		"EnemyLanceSize": 6
+			},
+	"ExtendedBoundaries": {
+		"Enable": false,
+		"IncreaseBoundarySizeByPercentage": 0
+	},
+	"DynamicWithdraw": {
+		"Enable": false
+	},
+	"AdditionalPlayerMechs": {
+		"Enable": false
+	}
+}

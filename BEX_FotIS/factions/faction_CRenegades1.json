@@ -1,0 +1,55 @@
+{
+    "ID": "faction_CRenegades1",
+    "Name": "the Canopian Renegades",
+    "ShortName": "Renegades",
+    "Description": "After Emma Centrella seized power from her mother, Kyalla Centrella, the ruling Magistrix of the Magistracy of Canopus, in 3039, the change of power was not accepted by few among the Canopian military. Some officers, still loyal to the old regime, chose to break away. Some of them took their personal 'Mechs, or in some cases, 'Mechs acquired from captured Capellan Confederation forces during the Andurien War and ventured into the deep Periphery.\r\nBranded as renegades by the Canopian government, these man and women adopted the label and became known as The Canopian Renegades. Isolated in the Periphery with no reliable allies or home base to call their own, they were forced to rely on opportunistic alliances to survive. Over time, they established cooperative relationships with the Marian Hegemony and various pirate bands operating under Hegemony patronage.",
+    "Demonym": "Canopian Renegades",
+    "Government": "Rebels",
+    "Allies": [
+        "Marian",
+        "PiratesMarian",
+        "PiratesCircinus"
+    ],
+    "Enemies": [
+        "Locals",
+        "Marik",
+        "MagistracyOfCanopus"
+    ],
+    "Presence": 0.25,
+    "ReputationStatements": [
+        "Sending over mission data.",
+        "Sending over mission data.",
+        "Sending over mission data.",
+        "Sending over mission data.",
+        "Sending over mission data.",
+        "Sending over mission data.",
+        "Sending over mission data."
+    ],
+    "MissionSuccessStatements": [
+        "Good job! Looking forward to working with you in the future!"
+    ],
+    "GoodFaithFailureStatements": [
+        "You win some, you lose some...That's the nature of the job"
+    ],
+    "BadFaithFailureStatements": [
+        "YWhat the hell was that!?"
+    ],
+    "DefaultCombatLeaderCastDefId": "castDef_MercenariesDefaultCommander",
+    "DefaultRepresentativeCastDefId": "castDef_MercenaryDefault",
+    "DataManager": null,
+    "factionID": "CRenegades1",
+    "icon": "uixTxrIcon_RenegadeCanopian",
+    "heraldryDefId": "heraldrydef_crenegade1",
+    "storePanelImage": null,
+    "factionStoreColor": null,
+    "StartingReputationValues": [
+        -15,
+        -15,
+        0
+    ],
+    "StartingReputationModes": [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

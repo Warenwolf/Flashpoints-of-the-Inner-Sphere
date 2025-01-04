@@ -1,0 +1,48 @@
+{
+    "Description" : {
+        "Id" : "fp_peripheryMerc",
+        "Name" : "Hidden Agendas",
+        "Details" : "Typical mercenary operation in the Periphery",
+        "Icon" : "uixTxrSpot_fp_peripheryMerc.png"
+    },
+    "Weight" : 200,
+    "InternalName" : "peripheryMerc",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 9,
+    "Requirements" : [],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_astrokaszy"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Marik"
+    ],
+    "TargetFaction" : "Unknown",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "LONG",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_peripheryMerc",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 180,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 360,
+    "RewardCollectionID" : "itemCollection_loot_fp_p1",
+    "UnitDropTonnageHint" : "Mixed",
+    "LanceDropTonnageHint" : "Mixed",
+    "FlashpointShortDescription" : "Our client, a small Marik-based mining company, has capitalized on the lawlessness and ongoing turmoil on Astrokaszy III, establishing a rhodium mining operation on its moon. However, the absence of an effective government has left the system vulnerable, with bandits and pirates now targeting our client's operations. That\u2019s where we come in.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

@@ -616,6 +616,38 @@
                         "selectedUnitType" : "UNDEFINED",
                         "selectedUnitDefId" : null,
                         "selectedPilotDefId" : null
+                    },
+					{
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "01e3c850-2b0d-46f8-bd4d-b9fb9772be2e"
+                        },
+                        "customUnitName" : "Jade Falcon Unit",
+                        "unitType" : "Mech",
+                        "unitDefId" : "MechDef_None",
+                        "unitTagSet" : {
+                            "items" : null,
+                            "tagSetSourceFile" : "Tags/EncounterTags"
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : null,
+                            "tagSetSourceFile" : "Tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : null,
+                            "tagSetSourceFile" : "Tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "kl_fp_d9_sharpshooter",
+                        "pilotTagSet" : {
+                            "items" : null,
+                            "tagSetSourceFile" : ""
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : null,
+                            "tagSetSourceFile" : "Tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
                     }
                 ]
             },

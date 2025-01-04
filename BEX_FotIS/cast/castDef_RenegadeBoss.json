@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_RenegadeBoss",
+    "internalName" : "RenegadeBoss",
+    "firstName" : "Mark",
+    "lastName" : "Owens",
+    "callsign" : "Scope",
+    "rank" : "Captain",
+    "gender" : "Male",
+    "factionID" : "CRenegades1",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" :false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_RenegadeBoss1.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

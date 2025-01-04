@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_fp_CR1",
+    "internalName" : "castDef_fp_CR1",
+    "firstName" : "Canopian Renegade",
+    "lastName" : "Captain",
+    "callsign" : "Warrior",
+    "rank" : "Captain",
+    "gender" : "Male",
+    "factionID" : "MagistracyOfCanopus",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_FPMW_liao_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

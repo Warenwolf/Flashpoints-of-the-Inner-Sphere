@@ -1,0 +1,88 @@
+{
+    "identifier": "Bkt_c_fp_peripheryMerc01",
+    "contents": [
+        {
+            "words": "Excellent job everyone. I think our employer will be very happy with us wiping out all opposition. Still, no time to rest - we have not dealt with the main force yet.",
+            "wordsColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "selectedCastDefId": "castDef_DariusDefault",
+            "emote": "Default",
+            "dialogueOrigin": "pilot",
+            "audioEventEntryIndex": 0,
+            "audioEventEntryText": "NONE",
+            "conversationIdx": 0,
+            "cameraFocus": {
+                "EncounterObjectGuid": ""
+            },
+            "revealRadius": -1
+        },
+        {
+            "words": "{MC.If.PlayerLances.Speaker.HasTag.pilot_criminal}<color=#85DBF6FF>[Criminal background]</color> A word with you, Commander? Pirates don’t take losses if they can help it. So whoever you’re up against? This ain’t your run-of-the-mill pirate scum..",
+            "wordsColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "selectedCastDefId": "castDef_TeamPilot_Random_1",
+            "emote": "Default",
+            "audioName": "NONE",
+            "cameraFocusGuid": "",
+            "cameraDistance": "Far",
+            "cameraHeight": "Default",
+            "revealRadius": -1
+        },
+        {
+            "words": "Yeah, I’m with you on that... Let’s use this downtime to rearm and swap out MechWarriors and ’Mechs if we can, Commander.",
+            "wordsColor": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "selectedCastDefId": "castDef_YangDefault",
+            "emote": "Default",
+            "audioName": "NONE",
+            "cameraFocusGuid": "",
+            "cameraDistance": "Far",
+            "cameraHeight": "Default",
+            "revealRadius": -1
+        },
+		{
+                    "words": "Mercenary Command, this is Dingo Team Actual. The APCs are running low on rocket ammo and the fighting in the vacuum fried three out of four of our LL emitters. I'm pulling my team out of the fight; we'll regroup and bolster the infantry defenders at the base.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Eng01a",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+        },
+		{
+                    "words": "Roger that, Dingo Actual. Appreciate the assist.\r\n\r\nAlright, people, you heard them - time to gear up and brace for round two...",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_Commander",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                }
+    ]
+}

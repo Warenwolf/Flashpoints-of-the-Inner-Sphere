@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_Eng01a",
+    "internalName" : "Eng01a",
+    "firstName" : "Vehicle Crew",
+    "lastName" : "Master",
+    "callsign" : "CPT",
+    "rank" : "Private",
+    "gender" : "Male",
+    "factionID" : "Marik",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_Eng01a.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

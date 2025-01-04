@@ -1,0 +1,18 @@
+{
+   "id" : "castDef_CRenegades1",
+   "internalName" : "CRenegades1",
+   "firstName" : "Renegades",
+   "lastName" : "Canopian Renegades",
+   "callsign" : null,
+   "rank" : null,
+   "showRank" : false,
+   "gender" : "NonBinary",
+   "factionID" : "CRenegades1",
+   "sgCharType" : "UNSET",
+   "defaultEmotePortrait" : {
+      "emote" : "Default",
+      "portraitAssetPath" : "../../Mods/BEX_FotIS/sprites/uixTxrIcon_RenegadeCanopian.png"
+   },
+   "emotePotraitList" : [
+   ]
+}

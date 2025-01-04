@@ -1,0 +1,90 @@
+{
+    "Description": {
+        "Id": "forcedevent_FP_newsevent_pm",
+        "Name": "Federated News Services",
+        "Details": "<b>Another Massacre in The Periphery!</b>\r\n\r\n\r\nShocking reports are flooding in from the  [[DM.SystemDefs[starsystemdef_Astrokaszy],Astrokaszy system]], where several hundred lives were claimed in a brutal bombing of a mining operation. Local sources confirm the attack, in form of a kinetic strike, took place at a remote facility on Ghenda moon known for extracting precious metals.\r\n\r\nCondemnations have poured in from across the civilized space, as this heinous act has ignited concern about the growing instability in the Periphery.",
+        "Icon": "uixTxrTimeLine_FederatedNewsServices.png"
+    },
+    "Scope": "Company",
+    "Weight": 5,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "continue",
+                "Name": "Continue Broadcast",
+                "Details": "Broadcast continues",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "continue2",
+                        "Name": "Federated News Services",
+                        "Details": "Zvezda Metals Industries (ZMI) has firmly rejected speculation about their involvement in the recent Astrokaszy system tragedy. In a strongly worded statement, ZMI declared that all their operations are located securely within the Free Worlds League and that they have no dealings or cooperation with entities in the lawless Astrokaszy system.\r\n\r\nUnfortunately, it is an all-too-common practice for companies in the Periphery to exploit the names of legitimate Inner Sphere industries, undermining any semblance of trust in an already volatile region.\r\n\r\nMilitary experts remain divided on whether the bombing is connected to the battles fought earlier that week between the [[DM.Factions[faction_CRenegades1],Canopian Renegades]] and the <color=#FAD02C><b>\"{COMPANY.CompanyName}\"</b></color>",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        
+                            {
+                                "Scope": "Company",
+                                "Requirements": null,
+                                "AddedTags": {
+                                    "items": [],
+                                    "tagSetSourceFile": ""
+                                },
+                                "RemovedTags": {
+                                    "items": null,
+                                    "tagSetSourceFile": ""
+                                },
+                                "Stats": [
+                                    {
+										"typeString" : "System.Int32",
+										"name" : "Reputation.MagistracyOfCanopus",
+										"value" : "2",
+										"set" : false,
+										"valueConstant" : null
+                                    }
+                                ]
+                            }
+                        
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": null
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}

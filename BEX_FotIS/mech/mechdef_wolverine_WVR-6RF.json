@@ -1,0 +1,191 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_jumpOK",
+            "unit_lance_assassin",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "unit_release",
+			"unit_range_medium",
+			"Davion",
+			"Kurita",
+			"Liao",
+			"Marik",
+			"BLACKLISTED",
+			"unit_common"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_wolverine_WVR-6R",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 5970000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Wolverine WVR-6R Field Mod",
+        "Id": "mechdef_wolverine_WVR-6RF",
+        "Name": "Wolverine",
+        "Details": "Wolverine 6Rs are fairly flexible in terms of weaponry ranges, tending somewhat more toward closer engagements. This is supported by their jump capability and pretty decent heat management.",
+        "Icon": "uixTxrIcon_wolverine"
+    },
+    "simGameMechPartCost": 600000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 90,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": -1,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": -1
+        }
+    ],
+    "inventory": [
+        {
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "Head",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_LRM_LRM10_2-LongFire",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "LeftTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_Gyro_Rawlings_StabiliTrak-15",
+            "ComponentDefType": "Upgrade",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "CenterTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_Lock-On",
+            "ComponentDefType": "Upgrade",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightTorso",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Weapon_Autocannon_AC5_3-Mydron",
+            "ComponentDefType": "Weapon",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": 0,
+            "MountedLocation": "RightArm",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "LeftLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        },
+        {
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5Precision",
+            "ComponentDefType": "AmmunitionBox",
+            "DamageLevel": "Functional",
+            "GUID": null,
+            "HardpointSlot": -1,
+            "MountedLocation": "RightLeg",
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "prefabName": null
+        }
+        
+    ]
+}

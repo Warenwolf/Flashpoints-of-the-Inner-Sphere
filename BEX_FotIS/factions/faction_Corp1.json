@@ -1,54 +1,54 @@
 {
-    "ID" : "faction_Corp1",
-    "Name" : "the corporate interests",
-    "ShortName" : "Corporate Interests",
-    "Description" : "Gathering of local investors and corporations working towards common commercial goal",
-    "Demonym" : "Corporate Interests",
-    "Government" : "Corporations",
-    "Allies" : [
-	"Kurita","Liao","Davion", "Steiner", "Marik"
+    "ID": "faction_Corp1",
+    "Name": "the corporate interests",
+    "ShortName": "Corporate Interests",
+    "Description": "Gathering of local investors and corporations working towards common commercial goal",
+    "Demonym": "Corporate Interests",
+    "Government": "Corporations",
+    "Allies": [
+        "Kurita",
+        "Liao",
+        "Davion",
+        "Steiner",
+        "Marik"
     ],
-    "Enemies" : [
-        
-		
-		"AuriganPirates",
-		"Locals"
-		
-		
+    "Enemies": [
+        "AuriganPirates",
+        "Locals"
     ],
-    "Presence" : 0.25,
-    "ReputationStatements" : [
+    "Presence": 0.25,
+    "ReputationStatements": [
         "Sending over mission data.",
         "Sending over mission data.",
         "Sending over mission data.",
         "Sending over mission data.",
         "Sending over mission data.",
-		"Sending over mission data.",
         "Sending over mission data.",
+        "Sending over mission data."
     ],
-    "MissionSuccessStatements" : [ 
-		"Good job! Looking forward to working with you in the future!"
-    ], 
-	"GoodFaithFailureStatements" : [ 
-		"You win some, you lose some...That's the nature of the job"
+    "MissionSuccessStatements": [
+        "Good job! Looking forward to working with you in the future!"
     ],
-	"BadFaithFailureStatements" : [ 
-		"YWhat the hell was that!?"
+    "GoodFaithFailureStatements": [
+        "You win some, you lose some...That's the nature of the job"
     ],
-	"DefaultCombatLeaderCastDefId" : "castDef_MercenariesDefaultCommander",
-    "DefaultRepresentativeCastDefId" : "castDef_MercenaryDefault",
-    "DataManager" : null,
-    "factionID" : "Corp1",
-    "icon" : "uixTxrLogo_backgroundTragedy",
-    "heraldryDefId" : "heraldrydef_random",
-    "storePanelImage" : null,
-	"factionStoreColor" : null,	
-    "StartingReputationValues" : [
+    "BadFaithFailureStatements": [
+        "YWhat the hell was that!?"
+    ],
+    "DefaultCombatLeaderCastDefId": "castDef_MercenariesDefaultCommander",
+    "DefaultRepresentativeCastDefId": "castDef_MercenaryDefault",
+    "DataManager": null,
+    "factionID": "Corp1",
+    "icon": "uixTxrLogo_backgroundTragedy",
+    "heraldryDefId": "heraldrydef_random",
+    "storePanelImage": null,
+    "factionStoreColor": null,
+    "StartingReputationValues": [
         -15,
         -15,
         0
     ],
-    "StartingReputationModes" : [
+    "StartingReputationModes": [
         "KAMEA_CAMPAIGN",
         "CAREER",
         "NONE"
