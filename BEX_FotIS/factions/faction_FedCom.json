@@ -1,0 +1,66 @@
+{
+    "ID" : "faction_FedCom",
+    "Name" : "the Federated Commonwealth",
+    "ShortName" : "FedCom",
+    "Description" : "The Federated Commonwealth is the union of the Lyran Commonwealth and Federated Suns. The accession of Archon-Prince Victor Steiner-Davion in 3055 formally brought the nation into being, though in practice it had existed as the Federated Commonwealth Alliance since 3028.",
+    "Demonym" : "FedCom",
+    "Government" : "Commonwealth",
+    "Allies" : [
+        "ComStar",
+        "Davion",
+		"Steiner"
+    ],
+    "Enemies" : [
+        "Kurita",
+        "Marik",
+        "Liao",
+		"Rasalhague",
+        "TaurianConcordat",
+        "AuriganPirates",
+        "Locals",
+		"Wolf",
+		"GhostBear",
+		"JadeFalcon",
+		"SmokeJaguar",
+		"NovaCat", "DiamondShark",
+		"SteelViper",
+		"Andurien"
+    ],
+    "Presence" : 0.25,
+    "ReputationStatements" : [
+        "We have a job for you, Mercenary scum. As distasteful as that is to us.",
+        "Mercenary though you may be, you seem effective enough. Federated Commonwealth has need of your skills, Commander.",
+        "Greetings, Commander. Federated Commonwealth requires aid from someone outside of our own forces. Hopefully you can help us.",
+        "Federated Commonwealth requires mercenaries of skill, Commander, and you fit the bill nicely. With luck, we will both profit from this arrangement.",
+        "You have served us well in the past, Commander. We value this relationship, and would like to preserve it.",
+        "Greetings, Commander. Once again, the Federated Commonwealth requires your services. Should you be successful, we will both profit.",
+        "Your many acts in the service to the Federated Commonwealth have not been forgotten. In light of this, we present you with this choice contract."
+    ],
+    "MissionSuccessStatements" : [ 
+		"Excellent performance, Commander. The Federated Commonwealth is pleased with what you have accomplished today. Expect our payment in full!",
+    ], 
+	"GoodFaithFailureStatements" : [ 
+		"Well, let it never be said Commonwealth does not believe in charity. Obviously, your skills could not be equivalent to our own regular armies\u2014so we do not blame you for your inability to complete the contract.",
+    ],
+	"BadFaithFailureStatements" : [ 
+		"Come now, mercenary\u2014did you really believe we'd pay you for your own inadequacies? Such a dismal performance cannot be rewarded, only reprimanded.",
+    ],
+	"DefaultCombatLeaderCastDefId" : "castDef_SteinerDefaultCommander",
+    "DefaultRepresentativeCastDefId" : "castDef_SteinerRepDefault",
+    "DataManager" : null,
+    "factionID" : "FedCom",
+	"icon" : "uixTxrLogo_FedCom",
+    "heraldryDefId" : "heraldrydef_fedcom2",
+    "storePanelImage" : null,
+    "factionStoreColor" : null,
+    "StartingReputationValues" : [
+        -5,
+        -10,
+        0
+    ],
+    "StartingReputationModes" : [
+        "KAMEA_CAMPAIGN",
+        "CAREER",
+        "NONE"
+    ]
+}

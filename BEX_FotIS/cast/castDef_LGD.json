@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_LGD",
+    "internalName" : "LGD",
+    "firstName" : "Mark",
+    "lastName" : "Durand",
+    "callsign" : "Alpha Actual",
+    "rank" : "Leftenant General",
+    "gender" : "Male",
+    "factionID" : "Davion",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : false,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/BEX_FotIS/portrait/guiTxrPort_LGD.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}

@@ -1,0 +1,1251 @@
+{
+    "StartingMilestoneID": "ms_fp_Insurgency_001_Start",
+    "Milestones": [
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_001_Start",
+                "Name": "Start",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Flashpoint",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+                            "fp_choice_b",
+                            "fp_choice_a",
+                            "fp_choice_c"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [],
+                    "Actions": [],
+                    "ForceEvents": [],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [],
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_002_Talk",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": [],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_002_Talk",
+                "Name": "Talk",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c46ec27197c44aad4b194b2",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "Orbiting Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_003_SearchAndDestroy",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_003_SearchAndDestroy",
+                "Name": "First Battle",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_theMine_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "e104402c-5db8-4832-83b7-1062e150b5a7",
+                                "01_fp_in_SearchAndDestroy",
+                                "FedCom",
+                                "CriminalRedCobraTriad",
+                                "8",
+                                "ms_fp_Insurgency_004_PostMissionBrief",
+                                null,
+                                null,
+                                "ms_fp_Insurgency_100_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_004_PostMissionBrief",
+                "Name": "PostMissionBrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c72bcb440905da4a17ea1d0",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "6 hours later...",
+                                "Debrief aboard Argo, high above Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_005_BaseAttack",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_005_BaseAttack",
+                "Name": "BaseAttack",
+                "Details": "Raid mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_sandyMesa_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "31761fcc-485f-4b71-bdd5-36ae261701a4",
+                                "02_fp_in_investigatingBase",
+                                "FedCom",
+                                "FreeSkyeMovement",
+                                "9",
+                                "ms_fp_Insurgency_006_Debrief",
+                                null,
+                                null,
+                                "ms_fp_Insurgency_100_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_006_Debrief",
+                "Name": "PostMissionBrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c15ab2906de017437ee43d5",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Later that day",
+                                "High above Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_007_DefenseOfConvoy",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_007_DefenseOfConvoy",
+                "Name": "DefenseOfConvoy",
+                "Details": "Ambush the Ambushers",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_Interchange_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "6e7a814e-e7d7-484a-be86-f6baac24ddb0",
+                                "03_fp_in_Convoy",
+                                "FedCom",
+                                "FreeSkyeMovement",
+                                "10",
+                                "ms_fp_Insurgency_008_Debrief",
+                                null,
+                                null,
+                                "ms_fp_Insurgency_100_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_008_Debrief",
+                "Name": "PostMissionBrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9cc0d0ce9a8c2d04a39733a5",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Back at Argo",
+                                "Geo-Stationary orbit above Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_009_Defense",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_009_Defense",
+                "Name": "AmbushConvoyNo2",
+                "Details": "Consecutive mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "mapGeneral_Interchange_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "6e7a814e-e7d7-484a-be86-f6baac24ddb0",
+                                "04_fp_in_UnderAttack",
+                                "FedCom",
+                                "HostileMercenaries",
+                                "8",
+                                "ms_fp_Insurgency_010_Debrief",
+                                null,
+                                null,
+                                "ms_fp_Insurgency_101_Failure",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_010_Debrief",
+                "Name": "Final Debrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9cbe1f06ad1f174d436aeaa3",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "1 hour later...",
+                                "Orbiting Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_011_Battle",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_011_Battle",
+                "Name": "Battle",
+                "Details": "Attack and Defend",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "mapGeneral_Interchange_aDes",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "fbc713b4-b147-4f8f-ba70-200f9f6073bc",
+                                "05_fp_in_FinalBattle",
+                                "FedCom",
+                                "FreeSkyeMovement",
+                                "10",
+                                "ms_fp_Insurgency_012_FinalTalk",
+                                null,
+                                null,
+                                "ms_fp_Insurgency_100_Failure",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_012_FinalTalk",
+                "Name": "Debrief",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9cdf3ae669362c8cda40dfab",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Later that day..",
+                                "High above Eaton Prime",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_Insurgency_012_Complete",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_012_Complete",
+                "Name": "Complete",
+                "Details": "flashpoint",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [
+                            "flashpoint_Insurgency_complete"
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_Insurgency_013_Reward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_fp_theInsurgency",
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_013_Reward",
+                "Name": "Reward",
+                "Details": "Extra rewards, including Reputation and bonus C-Bills go here",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "4",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 90
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Funds",
+                            "value": "4000000",
+                            "set": false,
+                            "valueConstant": null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Davion",
+                            "value": "10",
+                            "set": false,
+                            "valueConstant": null
+                        },
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Steiner",
+                            "value": "4",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Argo",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "Post-Mission Review"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_100_Failure",
+                "Name": "Failure",
+                "Details": "Failed mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [
+                {
+                    "Scope": "Flashpoint",
+                    "RequirementTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "ExclusionTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RequirementComparisons": []
+                }
+            ],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 90
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Ship",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_FailFlashpoint",
+                            "value": "0",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": "Tags/CompanyTags"
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Davion",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        },
+						{
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Steiner",
+                            "value": "-2",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        }
+		,
+        {
+            "Description": {
+                "Id": "ms_fp_Insurgency_101_Failure",
+                "Name": "Failure",
+                "Details": "Failed mission",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [
+                {
+                    "Scope": "Flashpoint",
+                    "RequirementTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "ExclusionTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RequirementComparisons": []
+                }
+            ],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-10",
+                            "set": false,
+                            "valueConstant": null
+                        },
+						{
+                                    "typeString" : "System.Int32",
+                                    "name" : "MechTechSkill",
+                                    "value" : "-2000",
+                                    "set" : false,
+                                    "valueConstant" : null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 120
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Ship",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_FailFlashpoint",
+                            "value": "0",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": "Tags/CompanyTags"
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Davion",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        },
+						{
+                            "typeString": "System.Int32",
+                            "name": "Reputation.Steiner",
+                            "value": "-2",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "castDef_fp_FSMech",
+    "internalName": "castDef_fp_FSMech",
+    "firstName": "Mechwarrior",
+    "lastName": "Ronin Officer",
+    "callsign": "Hellfire",
+    "rank": "Free Skye Movement",
+    "gender": "Male",
+    "factionID": "Liao",
+    "sgCharType": "UNSET",
+    "showRank": true,
+    "showFirstName": true,
+    "showCallsign": false,
+    "showLastName": false,
+    "localizeName": true,
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_GenericMW_01_utr.png"
+    },
+    "emotePotraitList": []
+}

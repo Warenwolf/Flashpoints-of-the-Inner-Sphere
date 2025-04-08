@@ -1,0 +1,34 @@
+{
+	"ID": "05_fp_in_FinalBattle",
+	"RandomSpawns": {
+		"Enable": false
+	},
+	"HotDropProtection": {
+		"Enable": true
+	},
+	"AdditionalLances": {
+		"Enable": false,
+		"EnemyLanceCount": 1,
+		"EnemyLances": [ "Damaged_Medium_Battle_Lance" ],
+		"EnemyLanceObjectiveNames" : [ "Destroy Medium Lance" ],
+		"HideObjective": true,
+		"ShowObjectiveOnLanceDetected": false,
+		"AlwaysDisplayHiddenObjectiveIfPrimary": false,
+		"AllyLanceCount": 0
+	},
+	"ExtendedLances": {
+		"Enable": true,
+		"EnemyLanceSize": 8
+			},
+	"ExtendedBoundaries": {
+		"Enable": false,
+		"EnableForFlashpoints": false,
+		"IncreaseBoundarySizeByPercentage": 0.3
+	},
+	"DynamicWithdraw": {
+		"Enable": true
+	},
+	"AdditionalPlayerMechs": {
+		"Enable": true
+	}
+}

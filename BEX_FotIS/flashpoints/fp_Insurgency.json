@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_Insurgency",
+        "Name" : "Insurgency",
+        "Details" : "3056 Rebellion",
+        "Icon" : "uixTxrSpot_fp_Insurgency.png"
+    },
+    "Weight" : 1000,
+    "InternalName" : "Insurgency",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 10,
+    "Requirements" : [
+        {
+            "Scope" : "Flashpoint",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_Eaton"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "FedCom"
+    ],
+    "TargetFaction" : "FreeSkyeMovement",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "LONG",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_Insurgency",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 360,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 180,
+    "RewardCollectionID" : "itemCollection_fp_theInsurgency",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "In the aftermath of Melissa Steiner-Davion’s assassination, Duke Ryan Steiner accused Archon-Prince Victor Steiner-Davion of killing his mother. There is unrest across the Isle of Skye, with calls for separation growing stronger. Leftenant General Durand has hired you to bolster the local FedCom forces.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}
