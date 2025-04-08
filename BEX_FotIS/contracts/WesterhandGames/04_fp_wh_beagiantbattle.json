@@ -134,7 +134,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Alright, {MC.PlayerLances.TeamPilot_Random_1.DisplayName}, you're in a FrankenMech Charger. We swapped out the small lasers and installed a Myrdon 57mm cannon with both standard and fin-stabilized precision rounds, plus SRM-6 Dual-Pack launchers. You've also got a Medium Laser as backup.",
+                    "words": "Alright, {MC.PlayerLances.TeamPilot_Random_1.DisplayName}, you’re in a FrankenMech Charger. We swapped out the small lasers and installed a Myrdon 57mm cannon, plus SRM-6 Dual-Pack launchers. You’ve also got a medium class laser as backup.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -150,7 +150,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Finally, we slapped on any armor plates we had lying around onto that 'Mech. But to do that, we had to remove the cooling jacket on the VLAR engine, so you're running much slower and still overweight. Don't push it too hard — stuff might start falling off...",
+                    "words": "Finally, we slapped on any armor plates we had lying around onto that 'Mech. But to do that, we had to remove the cooling jacket on the VLAR engine, so you're running somewhat slower and are still overweight. Don't push it too hard — stuff might start falling off...",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

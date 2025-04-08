@@ -50,11 +50,11 @@
     "UseAvailableTimeoutOverride" : true,
     "AvailableTimeout" : 360,
     "UseInProgressTimeoutOverride" : true,
-    "InProgressTimeout" : 60,
+    "InProgressTimeout" : 120,
     "RewardCollectionID" : "itemCollection_loot_fp_Westerhandgames",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Are you seeking fame, fortune, and the ultimate challenge? Come to Victory City in the Westerhand system, where you can showcase your martial prowess and compete for a state-of-the-art heavy BattleMech!",
+    "FlashpointShortDescription" : "Are you seeking fame, fortune and the ultimate challenge? Come to Victory City in the Westerhand system, where you can showcase your martial prowess and compete for a state-of-the-art heavy BattleMech!",
     "FlashpointDescriberCastDefId" : "castDef_FPOwn1",
     "Tags" : {
         "items" : [],

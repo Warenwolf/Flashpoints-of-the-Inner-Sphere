@@ -176,7 +176,7 @@
             "prefabName": null
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5Precision",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5Tracer",
             "ComponentDefType": "AmmunitionBox",
             "DamageLevel": "Functional",
             "GUID": null,

@@ -149,7 +149,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5Precision",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,

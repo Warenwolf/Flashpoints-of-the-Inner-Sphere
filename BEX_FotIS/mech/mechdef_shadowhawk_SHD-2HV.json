@@ -158,7 +158,7 @@
             "prefabName": null
         },
         {
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
             "ComponentDefType": "Weapon",
             "DamageLevel": "Functional",
             "GUID": null,
@@ -180,7 +180,7 @@
             "prefabName": null
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20Precision",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
             "ComponentDefType": "AmmunitionBox",
             "DamageLevel": "Functional",
             "GUID": null,

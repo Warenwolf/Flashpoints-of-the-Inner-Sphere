@@ -1,6 +1,7 @@
 itemCollection_Weapons_Magistracy_rare,,,
-itemCollection_Weapons_Diverse_Optics_rare,Reference,2,1
-itemCollection_Weapons_Delta_rare,Reference,2,1
-itemCollection_Weapons_Ceres_Arms_rare,Reference,2,1
-itemCollection_Weapons_Holly_rare,Reference,3,1
-Weapon_Laser_MediumLaser_3-Diverse_Optics,Weapon,2,1
+itemCollection_Weapons_Diverse_Optics_rare,Reference,1,1
+Weapon_LRM_LRM15_2-Delta,Weapon,1,1
+Weapon_Laser_MediumLaser_1-Magna,Weapon,2,1
+Weapon_SRM_SRM6_1-Holly,Weapon,2,1
+Weapon_SRM_SRM4_2-Holly,Weapon,3,1
+Weapon_Laser_MediumLaser_1-ExoStar,Weapon,2,1

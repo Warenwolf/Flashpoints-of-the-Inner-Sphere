@@ -1686,7 +1686,7 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_default",
                         "pilotTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/PilotTags"
@@ -1719,7 +1719,7 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_default",
                         "pilotTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/PilotTags"
@@ -1752,7 +1752,7 @@
                             "items": [],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_default",
                         "pilotTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/PilotTags"

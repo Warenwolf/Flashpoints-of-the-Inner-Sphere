@@ -166,7 +166,7 @@
                                 "Liao",
                                 "MagistracyOfCanopus",
                                 "6",
-                                "ms_fp_smashAndGrab_004_Post:MissionBrief",
+                                "ms_fp_smashAndGrab_004_PostMissionBrief",
                                 null,
                                 null,
                                 "ms_fp_smashAndGrab_100_Failure",
@@ -194,8 +194,8 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_smashAndGrab_004_Post:MissionBrief",
-                "Name": "Post:MissionBrief",
+                "Id": "ms_fp_smashAndGrab_004_PostMissionBrief",
+                "Name": "PostMissionBrief",
                 "Details": "flashpoint",
                 "Icon": null
             },
@@ -368,7 +368,7 @@
                                 "fp_smashAndCrash_SuddenContact",
                                 "Liao",
                                 "MagistracyOfCanopus",
-                                "6",
+                                "5",
                                 "ms_fp_smashAndGrab_007_AmbushConvoyNo2",
                                 null,
                                 null,
@@ -704,6 +704,42 @@
                 }
             ],
             "Results": [
+			
+				{
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "ExclusionTags": {
+                            "items": [],
+                            "tagSetSourceFile": ""
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Morale",
+                            "value": "-5",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 30
+                },
                 {
                     "Scope": "Company",
                     "Requirements": {
@@ -770,13 +806,7 @@
                         "tagSetSourceFile": ""
                     },
                     "Stats": [
-                        {
-                            "typeString": "System.Int32",
-                            "name": "Morale",
-                            "value": "-5",
-                            "set": false,
-                            "valueConstant": null
-                        },
+                       
                         {
                             "typeString": "System.Int32",
                             "name": "Reputation.Liao",

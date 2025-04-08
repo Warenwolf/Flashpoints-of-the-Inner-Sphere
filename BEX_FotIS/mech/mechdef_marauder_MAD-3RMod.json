@@ -201,7 +201,7 @@
             "prefabName": null
         },
         {
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10Tracer",
             "ComponentDefType": "AmmunitionBox",
             "DamageLevel": "Functional",
             "GUID": null,

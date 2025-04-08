@@ -3,7 +3,7 @@
     "contractName" : "Sudden Contact",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 2,
-    "difficultyUIModifier" : 0,
+    "difficultyUIModifier" : 1,
     "weight" : 1,
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : "Mission perfectly executed. Still we are now bit behind the scheldule Commander.",
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Scouts ahead are reporting engine sounds in the area ahead. Be ready for anything...",
-    "longDescription" : "Not much to go on here — might be a local bus with farmers or a Canopian armored division. Be ready for hostile contact, Commander.",
+    "shortDescription" : "As our troops advance along Route 9 towards the area where we expect to encounter the ore transport convoy, the Cappellan scouts operating ahead of us are reporting engine sounds in the vicinity. Be ready for anything, but keep in mind that time is of the essence.",
+    "longDescription" : "Not much to go on here — might be a local bus with farmers or a Canopian armored division. Assume worst, Commander.",
     "salvagePotential" : 8,
     "requirementList" : [
         {
@@ -160,7 +160,7 @@
                     "revealRadius" : -1
                 },
 				{
-                    "words" : "That is definitely the sound of a heavy tank engine I am picking up, Commander...",
+                    "words" : "That is definitely the sound of a heavy tank engine I am hearing...",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -176,7 +176,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Keep moving forward until you make contact. We have to keep the salvage crews following us safe so don't leave any strugglers.",
+                    "words" : "Keep moving forward until you make contact. We need to keep the salvage crews safe, so don't leave any stragglers behind. But remember, we're on the clock...",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -292,7 +292,7 @@
     "disableLanceConfiguration" : false,
     "disableCancelButton" : true,
     "disableAfterAction" : false,
-    "contractRewardOverride" : -1,
+    "contractRewardOverride" : 150000,
     "travelOnly" : false,
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,

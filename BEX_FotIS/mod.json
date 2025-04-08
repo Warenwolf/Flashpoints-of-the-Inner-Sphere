@@ -1,37 +1,123 @@
 {
     "Name": "Flashpoints of The Inner Sphere",
     "Enabled": true,
-
-    "Version": "2.0.1b",
+    "Version": "2.1.0",
     "Description": "Flashpoints of the Inner Sphere that cover lesser and more known historic events and battles in the Battletech lore",
     "Author": "Warenwolf/MRB",
-	
-	"DependsOn": [ "Timeline", "Mission Control", "BT_Extended_Timeline"],
-	"OptionallyDependsOn": [ "cFixes" ],
-	
+    "DependsOn": [
+        "Timeline",
+        "Mission Control",
+        "BT_Extended_Timeline"
+    ],
+    "OptionallyDependsOn": [
+        "cFixes"
+    ],
     "Manifest": [
-    { "Type": "CastDef", "Path": "cast" },
-	{ "Type": "BaseDescriptionDef", "Path": "descriptions" },
-	{ "Type": "SimGameEventDef", "Path": "events", "AddToDB": true },
-	{ "Type": "ForcedTimelineEvent", "Path": "FTE" },
-	{ "Type": "FlashpointDef", "Path": "flashpoints" },
-	{ "Type": "FactionDef", "Path": "factions" },
-	{ "Type": "HeraldryDef", "Path": "heraldryDef" },
-	{ "Type": "ContractOverride", "Path": "contracts" },
-	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
-	{ "Type": "SimGameConversations", "Path": "simGameConversations" },
-	{ "Type": "Sprite", "Path": "sprites" },
-	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
-	{ "Type": "ConversationContent", "Path": "dialogue_buckets" },
-	{ "Type": "PilotDef", "Path": "pilot" },
-	{ "Type": "TurretDef", "Path": "turret", "AddToDB": false },
-	{ "Type": "MechDef", "Path": "mech" , "AddToDB": true},
-	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true},
-	{ "Type": "VehicleDef", "Path": "vehicle" , "AddToDB": true},
-	{ "Type": "VehicleChassisDef", "Path": "vechdef", "AddToDB": true },
-	{ "Type": "AbilityDef","Path": "ability","AddToDB": false },
-	{ "Type": "DialogBucketDef", "Path": "conversationBuckets" },
-	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" },
-	{ "Type": "Texture2D", "Path": "emblems", "AddToAddendum": "PlayerEmblems" }
-	]
+        {
+            "Type": "CastDef",
+            "Path": "cast"
+        },
+        {
+            "Type": "BaseDescriptionDef",
+            "Path": "descriptions"
+        },
+        {
+            "Type": "SimGameEventDef",
+            "Path": "events",
+            "AddToDB": true
+        },
+        {
+            "Type": "ForcedTimelineEvent",
+            "Path": "FTE"
+        },
+        {
+            "Type": "FlashpointDef",
+            "Path": "flashpoints"
+        },
+        {
+            "Type": "FactionDef",
+            "Path": "factions"
+        },
+        {
+            "Type": "HeraldryDef",
+            "Path": "heraldryDef"
+        },
+        {
+            "Type": "ContractOverride",
+            "Path": "contracts"
+        },
+        {
+            "Type": "SimGameMilestoneSet",
+            "Path": "milestoneSets"
+        },
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+        {
+            "Type": "Sprite",
+            "Path": "sprites"
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        },
+        {
+            "Type": "ConversationContent",
+            "Path": "dialogue_buckets"
+        },
+        {
+            "Type": "PilotDef",
+            "Path": "pilot"
+        },
+        {
+            "Type": "TurretChassisDef",
+            "Path": "turretChassis",
+            "AddToDB": true
+        },
+		{
+            "Type": "TurretDef",
+            "Path": "turret",
+            "AddToDB": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech",
+            "AddToDB": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis",
+            "AddToDB": true
+        },
+        {
+            "Type": "VehicleDef",
+            "Path": "vehicle",
+            "AddToDB": true
+        },
+        {
+            "Type": "VehicleChassisDef",
+            "Path": "vechdef",
+            "AddToDB": true
+        },
+        {
+            "Type": "AbilityDef",
+            "Path": "ability",
+            "AddToDB": false
+        },
+        {
+            "Type": "DialogBucketDef",
+            "Path": "conversationBuckets"
+        },
+        {
+            "Type": "Texture2D",
+            "Path": "textures",
+            "AddToAddendum": "ConversationTexture"
+        },
+        {
+            "Type": "Texture2D",
+            "Path": "emblems",
+            "AddToAddendum": "PlayerEmblems"
+        }
+    ]
 }

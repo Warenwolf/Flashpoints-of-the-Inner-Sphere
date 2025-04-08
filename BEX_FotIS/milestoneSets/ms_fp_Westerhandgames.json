@@ -285,9 +285,7 @@
                             "tagSetSourceFile": ""
                         },
                         "ExclusionTags": {
-                            "items": [
-                                "Liao",
-                                "Marik"
+                            "items": [                             
                             ],
                             "tagSetSourceFile": "Tags/PilotTags"
                         },
@@ -460,7 +458,7 @@
             ],
             "Repeatable": false,
             "UseRandomInvocation": false,
-            "InvokeChance": 100
+            "InvokeChance": 0
         },
         {
             "Description": {
@@ -826,7 +824,7 @@
                     ],
                     "ForceEvents": null,
                     "TemporaryResult": true,
-                    "ResultDuration": 60
+                    "ResultDuration": 120
                 },
                 {
                     "Scope": "Company",
@@ -869,13 +867,6 @@
                             "typeString": "System.Int32",
                             "name": "Reputation.MercenaryReviewBoard",
                             "value": "50",
-                            "set": false,
-                            "valueConstant": null
-                        },
-                        {
-                            "typeString": "System.Int32",
-                            "name": "Morale",
-                            "value": "2",
                             "set": false,
                             "valueConstant": null
                         }
