@@ -1,9 +1,10 @@
 itemCollection_loot_fp_p1,Battlefield Salvage,,
 Gear_AMS_Blankenburg,Upgrade,1,1
 Weapon_Laser_BinaryLaserCannon_1-Defiance,Weapon,2,1
+Weapon_Laser_MediumLaserPulse_0-STOCK,Weapon,2,1
 Weapon_Autocannon_AC5_2-Imperator,Weapon,1,1
-Ammo_AmmunitionBox_Generic_AC5Tracer,Weapon,2,1
-Ammo_AmmunitionBox_Generic_SRMInferno,HeatSink,2,1
+Ammo_AmmunitionBox_Generic_AC5Tracer,AmmunitionBox,2,1
+Ammo_AmmunitionBox_Generic_SRMInferno,AmmunitionBox,2,1
 Weapon_Autocannon_AC10_2-Mydron,Weapon,1,1
 Weapon_Autocannon_AC10_2-Kali_Yama,Weapon,1,1
 Ammo_AmmunitionBox_Generic_AC10Tracer,AmmunitionBox,4,1
