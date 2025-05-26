@@ -1,7 +1,7 @@
 {
     "Name": "Flashpoints of The Inner Sphere",
     "Enabled": true,
-    "Version": "2.1.1",
+    "Version": "2.1.2",
     "Description": "Flashpoints of the Inner Sphere that cover lesser and more known historic events and battles in the Battletech lore",
     "Author": "Warenwolf/MRB",
     "DependsOn": [
