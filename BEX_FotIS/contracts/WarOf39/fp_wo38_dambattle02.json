@@ -576,7 +576,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "e3e34fc2-c664-42ab-920b-6002c058ac55"
                         },
-                        "customUnitName": "101st Militia Lance",
+                        "customUnitName": "101. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_firestarter_FS9-H2F",
                         "unitTagSet": {
@@ -608,7 +608,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27"
                         },
-                        "customUnitName": "101st Militia Lance",
+                        "customUnitName": "101. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_marauder_MAD-3R1b",
                         "unitTagSet": {
@@ -640,7 +640,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "f46b3021-803a-41ed-87e0-1b8cb86663b8"
                         },
-                        "customUnitName": "101st Militia Lance",
+                        "customUnitName": "101. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_crusader_CRD-3K",
                         "unitTagSet": {
@@ -655,7 +655,7 @@
                             "items": null,
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d7_vanguard",
+                        "pilotDefId": "fp_d10_vanguard",
                         "pilotTagSet": {
                             "items": null,
                             "tagSetSourceFile": ""
@@ -698,7 +698,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName": "102nd Militia Lance",
+                        "customUnitName": "102. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_archer_ARC-2PR",
                         "unitTagSet": {
@@ -730,9 +730,9 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName": "102nd Militia Lance",
+                        "customUnitName": "102. Militia Lance",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_rifleman_RFL-3N",
+                        "unitDefId": "mechdef_rifleman_RFL-3ND",
                         "unitTagSet": {
                             "items": null,
                             "tagSetSourceFile": "Tags/EncounterTags"
@@ -745,7 +745,7 @@
                             "items": null,
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d6_gunner",
+                        "pilotDefId": "pl_fp_d9_sharpshooter",
                         "pilotTagSet": {
                             "items": null,
                             "tagSetSourceFile": ""
@@ -762,7 +762,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
                         },
-                        "customUnitName": "102nd Militia Lance",
+                        "customUnitName": "102. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_phoenixhawk_PXH-1K",
                         "unitTagSet": {
@@ -777,7 +777,7 @@
                             "items": null,
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d4_pilot",
+                        "pilotDefId": "fp_d7_recon",
                         "pilotTagSet": {
                             "items": null,
                             "tagSetSourceFile": ""
@@ -794,7 +794,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
                         },
-                        "customUnitName": "102nd Militia Lance",
+                        "customUnitName": "102. Militia Lance",
                         "unitType": "Mech",
                         "unitDefId": "mechdef_wolverine_WVR-6K21",
                         "unitTagSet": {
@@ -809,7 +809,7 @@
                             "items": null,
                             "tagSetSourceFile": "Tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d5_tactician",
+                        "pilotDefId": "fp_d7_recon",
                         "pilotTagSet": {
                             "items": null,
                             "tagSetSourceFile": ""

@@ -586,7 +586,7 @@
                         "customUnitName": "2nd Vanguard Lance",
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "echdef_enforcer_ENF-5D",
+                        "unitDefId": "mechdef_enforcer_ENF-5D",
                         "unitTagSet": {
                             "items": [],
                             "tagSetSourceFile": "tags/UnitTags"

@@ -34,7 +34,7 @@
                 {
                     "Description": {
                         "Id": "outcome_0_0",
-                        "Name": "Arbitration Meeting",
+                        "Name": "Assessing the damage",
                         "Details": "Darius taps you on the shoulder.\r\n\n\u201CThe client called, Boss. ZMI is fully on board with us striking at the Renegades,,\u201D he says, his eyes drifting over the medbay.\u201CThis is going to cost us...\u201D\r\n\nI nod, taking one last look at the wounded before turning away. It was time to drop again...\r\n\n<color=#85DBF6FF>[The high number of wounded MechTechs is going to reduce both our medbay and mechbay capacities, especially since we cannot easily replace lost crewmen here in the Astrokaszy system]</color>",
                         "Icon": null
                     },
